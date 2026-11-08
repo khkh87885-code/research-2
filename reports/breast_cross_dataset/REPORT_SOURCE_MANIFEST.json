@@ -1,0 +1,8 @@
+{
+  "all_results_sha256": "4415269bd40a4b5bc5850d2f8eb3c766d63dbdc2e79ab88c04c21deb07c43770",
+  "statistics_sha256": "9c917db1c8f20b4a9480dc4ffba23d627e88b398b951942e1903703d7f4e5b3d",
+  "domain_shift_sha256": "ae50f96ad521dffa99e9fab7c5f2da9a44729cdbb17176382c3f0316bc622cd2",
+  "confidence_interval_source": "statistics.json descriptives.mean_ci95,paired_comparisons.mean_difference_ci95/median_difference_ci95; no CI fabricated for workflow or clinical example panels",
+  "report_sha256": "9757d5702f1c70a932f17cd32d95ffe85603a31856889872560776400cae7bf5",
+  "discussion_sha256": "2f6f0b7ba7eddf5c946effc2d3d6adb82726d56370be7520603d5c8dd9953ec2"
+}
