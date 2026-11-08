@@ -17,3 +17,8 @@ IACS v2 的匿名 Case/图像键、原图数值特征、文件字节数、编码
 - SAM：[官方仓库](https://github.com/facebookresearch/segment-anything)，本次来源 commit `dca509fe793f601edb92606367a655c15ac00fdf`。ViT-B checkpoint SHA-256 `ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912`，375042383 bytes。
 
 本仓库不替代这些来源的授权与使用条款，也不授予原始临床数据的再分发许可。
+
+
+## BrEaST 冻结跨数据集验证材料
+
+新增 reports/breast_cross_dataset/，包含冻结验证报告、数据集审计、测试报告、推理前冻结报告、预设统计分析计划、讨论草稿及来源哈希清单。仅发布方法与汇总结果，不发布 BrEaST 原图、标注、预测掩膜、逐例本地路径或身份映射。该跨数据集验证结果没有证明 IACS 优于固定 Q85，也没有正式非劣效或临床安全结论。
