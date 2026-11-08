@@ -1,0 +1,5858 @@
+{
+  "analysis_unit": "patient",
+  "paired_image_policy": "intersect images then average within patient",
+  "bootstrap_repetitions": 500,
+  "seed": 20261108,
+  "ci_method": "paired patient percentile bootstrap",
+  "holm_family": "dataset/prompt_strategy/split/metric across non-baseline conditions",
+  "margin_interpretation": "Prespecified threshold check only; no automatic clinical noninferiority conclusion.",
+  "total_scheduled_records": 102,
+  "groups": [
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "baseline",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08627826347521049,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04512813774144553,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.2225931686507,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 72.63970718591831,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 67742.66666666667,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.07402684882959633,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.03857998391031502,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 275.4361045689055,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 71.54558807879144,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 13021.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08152645436242995,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.042557389597017485,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 275.09454640989486,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 68.15211218985809,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 63197.333333333336,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.06691926310199653,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.0348962032317263,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 275.3870088872973,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 76.69273867085352,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 63930.666666666664,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "iacs",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08896633634897022,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04659697631664846,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 276.41232158687217,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 79.0715054252055,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 26164.666666666668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08627826347521049,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04512813774144553,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.2225931686507,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 72.63970718591831,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 193048.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.09009693091335234,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04722388368654156,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 277.6067736330138,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 93.2855405748683,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 13242.666666666666,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08694352080666619,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.045492218230702854,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 277.06574976989737,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 82.52284830728355,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 16468.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08903779832064501,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04663663890422701,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 276.9762661785939,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 80.79298019932041,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 20430.666666666668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08896633634897022,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04659697631664846,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 276.41232158687217,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 79.0715054252055,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 26164.666666666668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08274214819041631,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04321428802352153,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.0919568731246,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 70.05848462629235,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 46787.666666666664,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "png_l6",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08627826347521049,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04512813774144553,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.2225931686507,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 72.63970718591831,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 111975.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_025",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08952333654072588,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04691394296130073,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 278.36195315951846,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 109.96030396912396,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 10647.666666666666,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_050",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.07433393111962715,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.0387516602686021,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.83136413450273,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 78.71870200697681,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 33206.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_075",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.0667039665171215,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.03478097616498762,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 275.02826854790567,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 71.8176062723973,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 65572.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_090",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.0861182855629025,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04504191601335008,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.39157794673935,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 70.85323166418792,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 91079.66666666667,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "webp_lossless",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.08627826347521049,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.04512813774144553,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 274.2225931686507,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 72.63970718591831,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 64349.333333333336,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "baseline",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9101917577827647,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8362861729836318,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.848362704886211,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.9501871078755513,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 67742.66666666667,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9101500633878971,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8357936752400876,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.073417273558668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.9114372181144694,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 13021.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9145651692866891,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8432326229733261,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.528374292626816,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.8210605750599154,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 63197.333333333336,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.914474182297461,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8434896572055872,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.438100352124673,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.770298624603559,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 63930.666666666664,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "iacs",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9025932569587661,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.823435872681035,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 10.161142582272618,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 3.105717348357853,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 26164.666666666668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9101917577827647,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8362861729836321,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.848362704886211,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.9501871078755513,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 193048.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.8905385056119354,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.803858092246088,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 11.095632003530993,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 3.4472398492856704,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 13242.666666666666,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9038030874667244,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8259142791673796,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 10.309442165205686,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 3.120327962098486,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 16468.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9102821966152392,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8359161333318497,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.762034169738602,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.8752431863647705,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 20430.666666666668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9025932569587661,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.823435872681035,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 10.161142582272618,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 3.105717348357853,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 26164.666666666668,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9144136297117534,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8430176839485483,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.318004896595273,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.871843403789047,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 46787.666666666664,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "png_l6",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9101917577827647,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8362861729836318,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.848362704886211,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.9501871078755513,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 111975.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_025",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.8902775481067465,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8039636399307456,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 11.705745395525254,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 3.3357681324468427,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 10647.666666666666,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_050",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9164134799920793,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8477671952578065,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.129556628022634,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.646236718135997,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 33206.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_075",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9156580354504843,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8454937771923521,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.338737583813467,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.796216611530552,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 65572.0,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_090",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9143182662384163,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8434272216122775,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.365696333862408,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.699178107448492,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 91079.66666666667,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "webp_lossless",
+      "scheduled_images": 3,
+      "scheduled_patients": 3,
+      "successful_images": 3,
+      "failed_images": 0,
+      "patients_with_any_failed_image": 0,
+      "metrics": {
+        "dice": {
+          "mean_of_patient_means": 0.9101917577827647,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "iou": {
+          "mean_of_patient_means": 0.8362861729836321,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "hd95": {
+          "mean_of_patient_means": 9.848362704886211,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "assd": {
+          "mean_of_patient_means": 2.9501871078755513,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        },
+        "output_bytes": {
+          "mean_of_patient_means": 64349.333333333336,
+          "valid_patients": 3,
+          "missing_or_failed_patients": 0,
+          "valid_images": 3,
+          "missing_or_failed_images": 0
+        }
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.012251414645614163,
+      "ci95": [
+        -0.03603032471261395,
+        -0.00035087537282390185
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.006548153831130502,
+      "ci95": [
+        -0.01924789274645571,
+        -0.00017700240056350153
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 1.2135114002547691,
+      "ci95": [
+        -0.010720528723481948,
+        2.148158889211288
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -1.0941191071268765,
+      "ci95": [
+        -3.4774735847596787,
+        0.9923832701069912
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -54721.666666666664,
+      "ci95": [
+        -65810.0,
+        -34023.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.004751809112780535,
+      "ci95": [
+        -0.009061237122271337,
+        -0.00039645493653582553
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.0025707481444280414,
+      "ci95": [
+        -0.007201988568652354,
+        -0.00021347592695555861
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.8719532412441519,
+      "ci95": [
+        -0.1754401018790341,
+        2.832148582931609
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -4.487594996060231,
+      "ci95": [
+        -6.708953454560977,
+        -1.2641421969286752
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -4545.333333333333,
+      "ci95": [
+        -8521.0,
+        -518.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.01935900037321395,
+      "ci95": [
+        -0.057725132744553355,
+        9.210378800310337e-05
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.01023193450971923,
+      "ci95": [
+        -0.030498761204450275,
+        4.960696607932136e-05
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 1.1644157186466373,
+      "ci95": [
+        -0.00966295797110206,
+        2.180085053350088
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 4.053031484935199,
+      "ci95": [
+        -1.6527480951263627,
+        14.062500332680074
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -3812.0,
+      "ci95": [
+        -4935.0,
+        -2009.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0026880728737597496,
+      "ci95": [
+        -5.952826339720996e-05,
+        0.008064543017102077
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.001468838575202927,
+      "ci95": [
+        -3.3077702608227955e-05,
+        0.0044077068557811586
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 2.1897284182214967,
+      "ci95": [
+        0.0,
+        3.5104883721945157
+      ],
+      "wilcoxon_p": 0.17971249487899976,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [
+        "Exact p-value calculation does not work if there are zeros. Switching to normal approximation.",
+        "Sample size too small for normal approximation."
+      ],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 6.43179823928719,
+      "ci95": [
+        0.13093528677710253,
+        18.857930138367053
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -41578.0,
+      "ci95": [
+        -50325.0,
+        -25050.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 125305.33333333333,
+      "ci95": [
+        76537.0,
+        155429.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0038186674381418587,
+      "ci95": [
+        0.0002877287924091182,
+        0.009288342545930792
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0020957459450960275,
+      "ci95": [
+        -4.372817058745371e-05,
+        0.005079835866256523
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 3.384180464363093,
+      "ci95": [
+        0.3356215263683566,
+        5.010335525066485
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 20.64583338894998,
+      "ci95": [
+        5.5187798774868355,
+        33.140247221142204
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -54500.0,
+      "ci95": [
+        -65654.0,
+        -33583.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0006652573314557125,
+      "ci95": [
+        -0.000159568758671777,
+        0.001790422187803481
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.00036408048925732256,
+      "ci95": [
+        -8.593227773734391e-05,
+        0.0009753563246885436
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 2.843156601246657,
+      "ci95": [
+        0.06764070579765757,
+        6.101307046535624
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 9.88314112136525,
+      "ci95": [
+        0.5286827036151891,
+        21.233437894223215
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -51274.666666666664,
+      "ci95": [
+        -61428.0,
+        -31411.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.002759534845434522,
+      "ci95": [
+        -1.414695989830165e-05,
+        0.008296808798836111
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0015085011627814806,
+      "ci95": [
+        -1.3053018627119661e-05,
+        0.004535204429881368
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 2.7536730099431566,
+      "ci95": [
+        -0.00966295797110206,
+        4.366328783990866
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 8.1532730134021,
+      "ci95": [
+        -0.010699765723700239,
+        22.83436193036998
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -47312.0,
+      "ci95": [
+        -56778.0,
+        -28802.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0026880728737597496,
+      "ci95": [
+        -5.952826339720996e-05,
+        0.0053960966339261784
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.001468838575202927,
+      "ci95": [
+        -3.3077702608227955e-05,
+        0.0044077068557811586
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 2.1897284182214967,
+      "ci95": [
+        0.0,
+        3.5104883721945157
+      ],
+      "wilcoxon_p": 0.17971249487899976,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [
+        "Exact p-value calculation does not work if there are zeros. Switching to normal approximation.",
+        "Sample size too small for normal approximation."
+      ],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 6.43179823928719,
+      "ci95": [
+        0.13093528677710253,
+        18.857930138367053
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -41578.0,
+      "ci95": [
+        -50325.0,
+        -25050.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.0035361152847941855,
+      "ci95": [
+        -0.010664216536347512,
+        3.844384469797735e-05
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.0019138497179240048,
+      "ci95": [
+        -0.005771938231832592,
+        1.8960172520737006e-05
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.13063629552610223,
+      "ci95": [
+        -1.7623095333653964,
+        1.360737688816016
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -2.5812225596259517,
+      "ci95": [
+        -8.920029966906739,
+        1.1296861079591878
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -20955.0,
+      "ci95": [
+        -26213.166666666664,
+        -12557.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 44232.333333333336,
+      "ci95": [
+        25393.0,
+        54050.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0032450730655153906,
+      "ci95": [
+        -0.0007834653215835624,
+        0.007371440991656084
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0017858052198551956,
+      "ci95": [
+        -0.00042178163239115635,
+        0.0040274269728915735
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 4.139359990867774,
+      "ci95": [
+        1.3481845508428592,
+        5.887336526301112
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 37.32059678320563,
+      "ci95": [
+        17.730857770080235,
+        50.29823950770716
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -57095.0,
+      "ci95": [
+        -68978.0,
+        -36318.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.011944332355583337,
+      "ci95": [
+        -0.03602014756190096,
+        0.0007076742765927957
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.006376477472843433,
+      "ci95": [
+        -0.019242556247125394,
+        0.00039338807621826233
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.6087709658520263,
+      "ci95": [
+        -0.7996912876384954,
+        2.2780463296501807
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 6.078994821058501,
+      "ci95": [
+        -0.4238550578491669,
+        12.39960645695723
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -34536.666666666664,
+      "ci95": [
+        -42531.0,
+        -21659.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.019574296958088985,
+      "ci95": [
+        -0.05799675690328518,
+        4.919716436943555e-06
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.010347161576457905,
+      "ci95": [
+        -0.03063805800478171,
+        2.6496322268060313e-06
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.8056753792549785,
+      "ci95": [
+        -0.00966295797110206,
+        1.3456632399524437
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.8221009135210124,
+      "ci95": [
+        -1.340458773199103,
+        -0.5609661575655167
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -2170.6666666666665,
+      "ci95": [
+        -3054.0,
+        -860.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.000159977912307994,
+      "ci95": [
+        -0.00048272371541513426,
+        0.0001448894258993666
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -8.62217280954471e-05,
+      "ci95": [
+        -0.00020061403025655825,
+        8.051848835219366e-05
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.16898477808865664,
+      "ci95": [
+        -0.46282068587282765,
+        0.9794379781098996
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -1.7864755217303951,
+      "ci95": [
+        -3.1410051331296884,
+        -0.15778258591954142
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 23337.0,
+      "ci95": [
+        18627.0,
+        28049.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -3393.3333333333335,
+      "ci95": [
+        -4611.0,
+        -2028.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -4.1694394867601105e-05,
+      "ci95": [
+        -0.008489242396836016,
+        0.008048932686330779
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.0004924977435442809,
+      "ci95": [
+        -0.014773882600169319,
+        0.012749609047055244
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.7749454313275441,
+      "ci95": [
+        -1.6667603245486244,
+        1.0
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.03874988976108199,
+      "ci95": [
+        -0.40015956884540693,
+        0.26323024229211844
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr2_075_q75",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -54721.666666666664,
+      "ci95": [
+        -65810.0,
+        -34023.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.004373411503924267,
+      "ci95": [
+        -0.0013096089134134682,
+        0.013208300304708653
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.00694644998969407,
+      "ci95": [
+        -0.0033201256405440693,
+        0.021018967480801454
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.31998841225939384,
+      "ci95": [
+        -2.0,
+        2.0249030993194186
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.12912653281563577,
+      "ci95": [
+        -0.28548114221921495,
+        0.07866912367085543
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr3_q75_075",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -4545.333333333333,
+      "ci95": [
+        -8521.0,
+        -1163.8416666666976
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.004282424514696255,
+      "ci95": [
+        0.0020788941146453466,
+        0.005396833932863276
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.00720348422195527,
+      "ci95": [
+        0.003611906478525051,
+        0.009470095718661753
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.41026235276153916,
+      "ci95": [
+        -1.2917960675006306,
+        0.35366966973867103
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.17988848327199217,
+      "ci95": [
+        -0.4913576226587004,
+        0.12832233525092418
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "cr5_075_png",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -3812.0,
+      "ci95": [
+        -4935.0,
+        -2009.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.007598500823998637,
+      "ci95": [
+        -0.01911357555207982,
+        0.0009131989891750791
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.012850300302596892,
+      "ci95": [
+        -0.03293832891185022,
+        0.0015848840538218445
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.31277987738640584,
+      "ci95": [
+        -0.7302412114723653,
+        1.9231546211727863
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.15553024048230135,
+      "ci95": [
+        -0.08048410503732242,
+        0.5334884635447108
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "iacs",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -41578.0,
+      "ci95": [
+        -50325.0,
+        -33153.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jp2_lossless",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 125305.33333333333,
+      "ci95": [
+        76537.0,
+        155429.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.0196532521708294,
+      "ci95": [
+        -0.034891932402411646,
+        -0.002633359325652007
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.03242808073754403,
+      "ci95": [
+        -0.06438330435701678,
+        -0.004555217831813563
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 1.2472692986447804,
+      "ci95": [
+        -1.7965046101212927,
+        4.467244694190159
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.4970527414101187,
+      "ci95": [
+        -0.3801463809005785,
+        1.0619046768522236
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q40",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -54500.0,
+      "ci95": [
+        -65433.75833333333,
+        -33583.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.00638867031604029,
+      "ci95": [
+        -0.013630423318031437,
+        0.005944775571363303
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.0103718938162524,
+      "ci95": [
+        -0.02360833911191773,
+        0.010365942103214398
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.461079460319473,
+      "ci95": [
+        -0.6790193673401301,
+        2.062257748298549
+      ],
+      "wilcoxon_p": 0.6547208460185769,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [
+        "Exact p-value calculation does not work if there are zeros. Switching to normal approximation.",
+        "Sample size too small for normal approximation."
+      ],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.17014085422293426,
+      "ci95": [
+        -0.5892006182141634,
+        0.6047698417816503
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q60",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -51274.666666666664,
+      "ci95": [
+        -61280.333333333336,
+        -31411.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 9.043883247443023e-05,
+      "ci95": [
+        -0.01800792746031521,
+        0.01250326414091063
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.00037003965178224646,
+      "ci95": [
+        -0.031064571638212968,
+        0.019884432330503077
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.08632853514760974,
+      "ci95": [
+        -1.2917960675006306,
+        1.7118298293979315
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.07494392151078062,
+      "ci95": [
+        -0.5095605367838152,
+        0.5529515328343151
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q75",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -47312.0,
+      "ci95": [
+        -56778.0,
+        -28802.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.007598500823998637,
+      "ci95": [
+        -0.01911357555207982,
+        -0.0009229093102470035
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.012850300302596892,
+      "ci95": [
+        -0.03293832891185022,
+        0.0015848840538218445
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.31277987738640584,
+      "ci95": [
+        -0.7302412114723653,
+        1.9231546211727863
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.15553024048230135,
+      "ci95": [
+        -0.10228092078805329,
+        0.5334884635447108
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q85",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -41578.0,
+      "ci95": [
+        -50325.0,
+        -25050.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.004221871928988634,
+      "ci95": [
+        -0.0016541530280757,
+        0.012620404694771215
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.00673151096491631,
+      "ci95": [
+        -0.0028639794901011983,
+        0.020072834024386754
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.5303578082909398,
+      "ci95": [
+        -1.675444679663241,
+        0.08276253029821934
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.07834370408650419,
+      "ci95": [
+        -0.15051945346769458,
+        0.03291602431966201
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "jpeg_q95",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -20955.0,
+      "ci95": [
+        -26704.0,
+        -12557.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "png_l6",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 44232.333333333336,
+      "ci95": [
+        25393.0,
+        53784.666666666664
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.01991420967601824,
+      "ci95": [
+        -0.029917417579714,
+        -0.0038077690461475466
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.032322533052886425,
+      "ci95": [
+        -0.045835317244086626,
+        -0.006579549003685514
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 1.8573826906390416,
+      "ci95": [
+        -3.545088114658636,
+        7.501463080711853
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.3855810245712914,
+      "ci95": [
+        -0.8888276533543173,
+        1.102382560563405
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_025",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -57095.0,
+      "ci95": [
+        -68978.0,
+        -36318.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.006221722209314606,
+      "ci95": [
+        -0.006380355596311671,
+        0.01812182319792055
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.011481022274174505,
+      "ci95": [
+        -0.00997797234865172,
+        0.03233706609195652
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.7188060768635781,
+      "ci95": [
+        -5.354457257776303,
+        4.198039027185569
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.30395038973955435,
+      "ci95": [
+        -1.0090635958644025,
+        0.4349182256757782
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_050",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -34536.666666666664,
+      "ci95": [
+        -41494.0,
+        -21659.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.005466277667719455,
+      "ci95": [
+        0.00114739656274232,
+        0.007931596425987153
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.009207604208720133,
+      "ci95": [
+        0.001991775639443971,
+        0.013809200790299759
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.509625121072745,
+      "ci95": [
+        -1.5511138083071803,
+        1.007106781186545
+      ],
+      "wilcoxon_p": 0.75,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.15397049634499957,
+      "ci95": [
+        -0.36903794850456917,
+        0.0558910235470549
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_075",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -2170.6666666666665,
+      "ci95": [
+        -3054.0,
+        -1439.3333333333333
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.004126508455651545,
+      "ci95": [
+        0.0016991810119032502,
+        0.006419840200281635
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.00714104862864547,
+      "ci95": [
+        0.002676345619967324,
+        0.010025410118423802
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.4826663710238052,
+      "ci95": [
+        -1.1060676937399414,
+        0.08276253029821934
+      ],
+      "wilcoxon_p": 0.5,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -0.2510090004270595,
+      "ci95": [
+        -0.4559227398597905,
+        -0.10882955167559905
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "scale_090",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 23337.0,
+      "ci95": [
+        13919.0,
+        28049.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "dice",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "prespecified_margin": null,
+      "ci_exceeds_negative_margin": null,
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "iou",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "hd95",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "assd",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "wilcoxon_p": 1.0,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "condition": "webp_lossless",
+      "reference": "baseline",
+      "metric": "output_bytes",
+      "effect_direction": "condition_minus_baseline",
+      "paired_patients": 3,
+      "paired_images": 3,
+      "scheduled_patients": 3,
+      "patients_without_valid_pair": 0,
+      "patient_mean_difference": -3393.3333333333335,
+      "ci95": [
+        -4611.0,
+        -2028.0
+      ],
+      "wilcoxon_p": 0.25,
+      "holm_p": 1.0,
+      "inference_status": "estimated",
+      "warnings": [],
+      "holm_family_size": 16
+    }
+  ],
+  "friedman": [
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "metric": "dice",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 15.82774327122155,
+      "p_value": 0.46504647108639396,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "metric": "iou",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 15.82774327122155,
+      "p_value": 0.46504647108639396,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "metric": "hd95",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 29.7798397300717,
+      "p_value": 0.019177857003544924,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "metric": "assd",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 34.11345755693583,
+      "p_value": 0.005244967352286505,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "application_full_frame",
+      "split": "development",
+      "metric": "output_bytes",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 47.633537832310836,
+      "p_value": 5.422097016285992e-05,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "metric": "dice",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 26.269151138716367,
+      "p_value": 0.050356777291727065,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "metric": "iou",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 26.269151138716367,
+      "p_value": 0.050356777291727065,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "metric": "hd95",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 7.969987494789508,
+      "p_value": 0.9497548382564153,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "metric": "assd",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 11.481573498964808,
+      "p_value": 0.7788308003841863,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    },
+    {
+      "dataset": "BUS-BRA",
+      "prompt_strategy": "mechanism_gt_box",
+      "split": "development",
+      "metric": "output_bytes",
+      "conditions": [
+        "baseline",
+        "cr2_075_q75",
+        "cr3_q75_075",
+        "cr5_075_png",
+        "iacs",
+        "jp2_lossless",
+        "jpeg_q40",
+        "jpeg_q60",
+        "jpeg_q75",
+        "jpeg_q85",
+        "jpeg_q95",
+        "png_l6",
+        "scale_025",
+        "scale_050",
+        "scale_075",
+        "scale_090",
+        "webp_lossless"
+      ],
+      "complete_patients": 3,
+      "statistic": 47.633537832310836,
+      "p_value": 5.422097016285992e-05,
+      "scheduled_patients": 3,
+      "complete_images": 3,
+      "status": "estimated",
+      "warnings": [
+        "Chi-square approximation may be inaccurate with few patients/conditions."
+      ],
+      "patients_without_complete_data": 0
+    }
+  ],
+  "mixed_effects": {
+    "status": "completed",
+    "model": "patient-condition means; patient random intercept; REML",
+    "caution": "Exploratory model; inspect convergence and boundary/singularity warnings.",
+    "cohorts": [
+      {
+        "dataset": "BUS-BRA",
+        "prompt_strategy": "application_full_frame",
+        "split": "development",
+        "status": "fitted",
+        "converged": true,
+        "warnings": [
+          "The MLE may be on the boundary of the parameter space."
+        ],
+        "valid_patient_condition_records": 51,
+        "patients": 3,
+        "coefficients": {
+          "Intercept": 0.08627826347521039,
+          "C(condition)[T.cr2_075_q75]": -0.012251414645614168,
+          "C(condition)[T.cr3_q75_075]": -0.004751809112780543,
+          "C(condition)[T.cr5_075_png]": -0.019359000373213957,
+          "C(condition)[T.iacs]": 0.0026880728737597405,
+          "C(condition)[T.jp2_lossless]": -9.161508357502511e-18,
+          "C(condition)[T.jpeg_q40]": 0.0038186674381418496,
+          "C(condition)[T.jpeg_q60]": 0.0006652573314557041,
+          "C(condition)[T.jpeg_q75]": 0.002759534845434513,
+          "C(condition)[T.jpeg_q85]": 0.0026880728737597396,
+          "C(condition)[T.jpeg_q95]": -0.0035361152847941946,
+          "C(condition)[T.png_l6]": -9.107298248878239e-18,
+          "C(condition)[T.scale_025]": 0.0032450730655153802,
+          "C(condition)[T.scale_050]": -0.011944332355583346,
+          "C(condition)[T.scale_075]": -0.01957429695808899,
+          "C(condition)[T.scale_090]": -0.00015997791230800405,
+          "C(condition)[T.webp_lossless]": -8.890457814381155e-18
+        },
+        "fixed_effect_pvalues": {
+          "Intercept": 3.6131028490198092e-12,
+          "C(condition)[T.cr2_075_q75]": 0.2481633449452596,
+          "C(condition)[T.cr3_q75_075]": 0.6542203690491591,
+          "C(condition)[T.cr5_075_png]": 0.06803346847699557,
+          "C(condition)[T.iacs]": 0.7999757085338017,
+          "C(condition)[T.jp2_lossless]": 0.9999999999999993,
+          "C(condition)[T.jpeg_q40]": 0.718885483903952,
+          "C(condition)[T.jpeg_q60]": 0.9499995428292684,
+          "C(condition)[T.jpeg_q75]": 0.7947754013570733,
+          "C(condition)[T.jpeg_q85]": 0.7999757085338017,
+          "C(condition)[T.jpeg_q95]": 0.7388963151403998,
+          "C(condition)[T.png_l6]": 0.9999999999999993,
+          "C(condition)[T.scale_025]": 0.7596948392835194,
+          "C(condition)[T.scale_050]": 0.2602178879344623,
+          "C(condition)[T.scale_075]": 0.06502604783647191,
+          "C(condition)[T.scale_090]": 0.9879687037623542,
+          "C(condition)[T.webp_lossless]": 0.9999999999999993
+        }
+      },
+      {
+        "dataset": "BUS-BRA",
+        "prompt_strategy": "mechanism_gt_box",
+        "split": "development",
+        "status": "fitted",
+        "converged": true,
+        "warnings": [
+          "The MLE may be on the boundary of the parameter space."
+        ],
+        "valid_patient_condition_records": 51,
+        "patients": 3,
+        "coefficients": {
+          "Intercept": 0.9101917577827574,
+          "C(condition)[T.cr2_075_q75]": -4.169439486760705e-05,
+          "C(condition)[T.cr3_q75_075]": 0.004373411503924263,
+          "C(condition)[T.cr5_075_png]": 0.00428242451469625,
+          "C(condition)[T.iacs]": -0.007598500823998644,
+          "C(condition)[T.jp2_lossless]": -7.203921101625907e-18,
+          "C(condition)[T.jpeg_q40]": -0.019653252170829402,
+          "C(condition)[T.jpeg_q60]": -0.006388670316040297,
+          "C(condition)[T.jpeg_q75]": 9.043883247442397e-05,
+          "C(condition)[T.jpeg_q85]": -0.007598500823998645,
+          "C(condition)[T.jpeg_q95]": 0.004221871928988627,
+          "C(condition)[T.png_l6]": -6.0715321659188256e-18,
+          "C(condition)[T.scale_025]": -0.019914209676018244,
+          "C(condition)[T.scale_050]": 0.006221722209314599,
+          "C(condition)[T.scale_075]": 0.005466277667719447,
+          "C(condition)[T.scale_090]": 0.004126508455651538,
+          "C(condition)[T.webp_lossless]": -6.938893903907235e-18
+        },
+        "fixed_effect_pvalues": {
+          "Intercept": 0.0,
+          "C(condition)[T.cr2_075_q75]": 0.9953136099135211,
+          "C(condition)[T.cr3_q75_075]": 0.5378357025877704,
+          "C(condition)[T.cr5_075_png]": 0.5463279931828231,
+          "C(condition)[T.iacs]": 0.2844337428489637,
+          "C(condition)[T.jp2_lossless]": 0.9999999999999992,
+          "C(condition)[T.jpeg_q40]": 0.005630056067000122,
+          "C(condition)[T.jpeg_q60]": 0.3681299954031416,
+          "C(condition)[T.jpeg_q75]": 0.9898350216907388,
+          "C(condition)[T.jpeg_q85]": 0.2844337428489636,
+          "C(condition)[T.jpeg_q95]": 0.5520162703313778,
+          "C(condition)[T.png_l6]": 0.9999999999999993,
+          "C(condition)[T.scale_025]": 0.005026275578057458,
+          "C(condition)[T.scale_050]": 0.3807781347867779,
+          "C(condition)[T.scale_075]": 0.4412744833372638,
+          "C(condition)[T.scale_090]": 0.5610332183620843,
+          "C(condition)[T.webp_lossless]": 0.9999999999999992
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-08T06:13:12.334932+00:00",
+  "key_mode": "external_key_not_exported",
+  "secret_or_mapping_exported": false,
+  "source_hashes_unchanged": true,
+  "experiments": [
+    {
+      "experiment_id": "EXP_574059083cd74bbc9e57b8fc52988266",
+      "dataset": "BUS-BRA",
+      "split": "development",
+      "prompt_strategy": "mechanism",
+      "device": "cuda",
+      "records": 63,
+      "cases": 3,
+      "status_counts": {
+        "completed": 63
+      },
+      "error_type_counts": {}
+    },
+    {
+      "experiment_id": "EXP_7fa81c6f43d1419da63966fb06702d82",
+      "dataset": "BUS-BRA",
+      "split": "development",
+      "prompt_strategy": "application",
+      "device": "cpu",
+      "records": 5,
+      "cases": 1,
+      "status_counts": {
+        "completed": 5
+      },
+      "error_type_counts": {}
+    },
+    {
+      "experiment_id": "EXP_fcfb6aa50a714812b9e06b4923d77896",
+      "dataset": "BUS-BRA",
+      "split": "development",
+      "prompt_strategy": "mechanism",
+      "device": "cuda",
+      "records": 63,
+      "cases": 3,
+      "status_counts": {
+        "failed": 63
+      },
+      "error_type_counts": {
+        "RuntimeError": 63
+      }
+    }
+  ],
+  "total_records": 131,
+  "unique_case_keys": 3,
+  "unique_image_keys": 3,
+  "numeric_verification": {
+    "result_numeric_values_verified": 5141,
+    "summary_numeric_values_verified": 12,
+    "config_record_numeric_values_verified": 63,
+    "config_numeric_values_verified": 137
+  },
+  "scope": "Legacy workbench technical pilots; not new IACS_v2 efficacy or clinical results"
+}

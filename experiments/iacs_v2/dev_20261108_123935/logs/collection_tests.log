@@ -1,0 +1,26 @@
+
+=================================== ERRORS ====================================
+_____________________ ERROR collecting test_collector.py ______________________
+ImportError while importing test module 'D:\Codex������\busbra_sam_pilot\tests_iacs_v2\test_collector.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\Miniconda3\envs\learn_pytorch\lib\importlib\__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+D:\Codex������\busbra_sam_pilot\tests_iacs_v2\test_collector.py:9: in <module>
+    from compression_study.datasets import sha256
+E   ModuleNotFoundError: No module named 'compression_study'
+______________________ ERROR collecting test_features.py ______________________
+ImportError while importing test module 'D:\Codex������\busbra_sam_pilot\tests_iacs_v2\test_features.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\Miniconda3\envs\learn_pytorch\lib\importlib\__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+D:\Codex������\busbra_sam_pilot\tests_iacs_v2\test_features.py:10: in <module>
+    from iacs_v2.features import FEATURE_METHODS, FEATURE_NAMES, FEATURE_VERSION, extract_features, extract_record
+E   ModuleNotFoundError: No module named 'iacs_v2'
+- generated xml file: D:\Codex������\busbra_sam_pilot\research_output\IACS_v2\dev_20261108_123935\logs\collection_tests.xml -
+=========================== short test summary info ===========================
+ERROR ..\Codex������\busbra_sam_pilot\tests_iacs_v2\test_collector.py
+ERROR ..\Codex������\busbra_sam_pilot\tests_iacs_v2\test_features.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!
+2 errors in 0.94s

@@ -1,0 +1,75 @@
+{
+  "executable": "D:\\Miniconda3\\envs\\learn_pytorch\\python.exe",
+  "python": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]",
+  "isolated": 1,
+  "modules": {
+    "numpy": {
+      "version": "1.24.4",
+      "file": "D:\\Miniconda3\\envs\\learn_pytorch\\lib\\site-packages\\numpy\\__init__.py"
+    },
+    "scipy": {
+      "error": "ModuleNotFoundError: No module named 'scipy'"
+    },
+    "pandas": {
+      "error": "ModuleNotFoundError: No module named 'pandas'"
+    },
+    "PIL": {
+      "version": "10.4.0",
+      "file": "D:\\Miniconda3\\envs\\learn_pytorch\\lib\\site-packages\\PIL\\__init__.py"
+    },
+    "torch": {
+      "version": "2.4.1+cu118",
+      "file": "D:\\Miniconda3\\envs\\learn_pytorch\\lib\\site-packages\\torch\\__init__.py"
+    },
+    "torchvision": {
+      "version": "0.19.1+cu118",
+      "file": "D:\\Miniconda3\\envs\\learn_pytorch\\lib\\site-packages\\torchvision\\__init__.py"
+    },
+    "cv2": {
+      "error": "ModuleNotFoundError: No module named 'cv2'"
+    },
+    "matplotlib": {
+      "version": "3.7.5",
+      "file": "D:\\Miniconda3\\envs\\learn_pytorch\\lib\\site-packages\\matplotlib\\__init__.py"
+    },
+    "sklearn": {
+      "error": "ModuleNotFoundError: No module named 'sklearn'"
+    },
+    "statsmodels": {
+      "error": "ModuleNotFoundError: No module named 'statsmodels'"
+    },
+    "openpyxl": {
+      "error": "ModuleNotFoundError: No module named 'openpyxl'"
+    },
+    "pytest": {
+      "error": "ModuleNotFoundError: No module named 'pytest'"
+    },
+    "yaml": {
+      "error": "ModuleNotFoundError: No module named 'yaml'"
+    },
+    "skimage": {
+      "error": "ModuleNotFoundError: No module named 'skimage'"
+    }
+  },
+  "codecs": {
+    "jpg": true,
+    "zlib": true,
+    "webp": true,
+    "jpg_2000": true
+  },
+  "cuda": {
+    "available": true,
+    "runtime": "11.8",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "memory_total": 6441926656
+  },
+  "sam": {
+    "import": true,
+    "file": "D:\\Codex工作区\\segment-anything\\segment_anything\\__init__.py"
+  },
+  "checkpoint": {
+    "path": "D:\\codex论文\\models\\sam_vit_b_01ec64.pth",
+    "size": 375042383,
+    "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+  }
+}

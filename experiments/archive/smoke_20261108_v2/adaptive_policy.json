@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "kind": "image_only_rule",
+  "status": "unvalidated",
+  "conditions": [
+    "baseline",
+    "jpeg_q95",
+    "jpeg_q85",
+    "jpeg_q75",
+    "jpeg_q60",
+    "jpeg_q40",
+    "png_l6",
+    "scale_090",
+    "scale_075",
+    "scale_050",
+    "scale_025",
+    "cr2_075_q75",
+    "cr3_q75_075",
+    "cr5_075_png",
+    "webp_lossless",
+    "jp2_lossless"
+  ],
+  "default_condition": "jpeg_q95",
+  "feature_schema": [
+    "clarity",
+    "noise",
+    "contrast"
+  ],
+  "feature_version": "full_image_v1",
+  "uses_reference_at_inference": false,
+  "description": "Prospective engineering pilot thresholds on normalized [0,1] intensities; unvalidated, not safety standards.",
+  "rules": [
+    {
+      "feature": "noise",
+      "min": 0.025,
+      "condition": "jpeg_q95"
+    },
+    {
+      "feature": "contrast",
+      "max": 0.04,
+      "condition": "jpeg_q95"
+    },
+    {
+      "feature": "clarity",
+      "max": 0.005,
+      "condition": "jpeg_q95"
+    },
+    {
+      "all": [
+        {
+          "feature": "noise",
+          "max": 0.01
+        },
+        {
+          "feature": "contrast",
+          "min": 0.08
+        },
+        {
+          "feature": "clarity",
+          "min": 0.02
+        }
+      ],
+      "condition": "jpeg_q75"
+    },
+    {
+      "all": [
+        {
+          "feature": "noise",
+          "min": 0
+        },
+        {
+          "feature": "contrast",
+          "min": 0
+        },
+        {
+          "feature": "clarity",
+          "min": 0
+        }
+      ],
+      "condition": "jpeg_q85"
+    }
+  ]
+}

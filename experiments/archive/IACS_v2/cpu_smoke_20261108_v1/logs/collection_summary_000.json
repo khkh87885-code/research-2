@@ -1,0 +1,19 @@
+{
+  "completed_at": "2026-11-08T04:55:01.977967+00:00",
+  "scheduled_cases": 1,
+  "scheduled_images": 1,
+  "scheduled_tasks": 1,
+  "records": 1,
+  "statuses": {
+    "ok": 1
+  },
+  "origins": {
+    "new_inference": 1
+  },
+  "source_hashes_unchanged": true,
+  "weight_hash_unchanged": true,
+  "collection_lock_sha256": "20aab9d7b4028fc0a05199f30ff0b65fb56b98f48880f2d1feeea9f70e26414d",
+  "analysis_unit": "Case",
+  "distance_unit": "pixel",
+  "holdout_or_external_used": false
+}

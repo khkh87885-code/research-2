@@ -1,0 +1,314 @@
+{
+  "schema_version": "IACS_v2_report_1",
+  "analysis_unit": "Case-level",
+  "notice": "探索性 Case-level 分析；Dice 下降 0.02 仅为候选。HD95 容忍界值未设，不能判断双约束达标、临床安全或非劣效。",
+  "summary": {
+    "cases": 213,
+    "compression_records": 1491,
+    "valid_dice_records": 1491,
+    "failed_or_missing_records": 0,
+    "status_counts": {
+      "ok": 1491
+    },
+    "outer_decisions": 852,
+    "outer_cases": 213,
+    "fallback_decisions": 10,
+    "outer_folds": 5,
+    "v2_condition_counts": {
+      "jpeg_q95": 110,
+      "jpeg_q75": 32,
+      "jpeg_q85": 51,
+      "jpeg_q60": 14,
+      "baseline": 5,
+      "jpeg_q40": 1
+    },
+    "v2_fallback_decisions": 5
+  },
+  "figures": [
+    {
+      "number": 1,
+      "title": "研究流程（方法图，非实验结果）",
+      "status": "method_only",
+      "note": "方法流程图；不表示各步骤已获得有效研究结论。",
+      "files": {
+        "png": "figure_01.png",
+        "svg": "figure_01.svg",
+        "pdf": "figure_01.pdf"
+      }
+    },
+    {
+      "number": 2,
+      "title": "原图特征分布",
+      "status": "observed",
+      "note": "原图特征的实际分布；固定等宽直方图，未按结局筛图。",
+      "files": {
+        "png": "figure_02.png",
+        "svg": "figure_02.svg",
+        "pdf": "figure_02.pdf"
+      }
+    },
+    {
+      "number": 3,
+      "title": "JPEG 体积与分割质量",
+      "status": "observed",
+      "note": "描述性 Case-level 观测；缺失不填补。",
+      "files": {
+        "png": "figure_03.png",
+        "svg": "figure_03.svg",
+        "pdf": "figure_03.pdf"
+      }
+    },
+    {
+      "number": 4,
+      "title": "外层验证 IACS 与固定条件",
+      "status": "observed",
+      "note": "每点为相同外层留出 Case 的实测结局，菱形为均值；不据此事后选全局冠军。失败保留在表中。",
+      "files": {
+        "png": "figure_04.png",
+        "svg": "figure_04.svg",
+        "pdf": "figure_04.pdf"
+      }
+    },
+    {
+      "number": 5,
+      "title": "原图特征与决策关联",
+      "status": "observed",
+      "note": "按外层决策分组的原图特征均值。全开发集标准化仅用于显示，不用于拟合或交叉验证；关联不代表因果。",
+      "files": {
+        "png": "figure_05.png",
+        "svg": "figure_05.svg",
+        "pdf": "figure_05.pdf"
+      }
+    },
+    {
+      "number": 6,
+      "title": "外层交叉验证各折",
+      "status": "observed",
+      "note": "仅外层留出 Case 的均值；训练拟合描述与内层参数选择在折表另列，不能作为验证表现。",
+      "files": {
+        "png": "figure_06.png",
+        "svg": "figure_06.svg",
+        "pdf": "figure_06.pdf"
+      }
+    },
+    {
+      "number": 7,
+      "title": "训练折阈值定义的亚组",
+      "status": "observed",
+      "note": "探索性亚组；阈值必须来自相应训练折。各亚组可能交叠，不能累加为独立 Case。",
+      "files": {
+        "png": "figure_07.png",
+        "svg": "figure_07.svg",
+        "pdf": "figure_07.pdf"
+      }
+    },
+    {
+      "number": 8,
+      "title": "逐 Case 体积 / Dice / HD95 Pareto",
+      "status": "observed",
+      "note": "逐 Case 三目标非支配点以空心圈标记；不跨 Case 选择最优图像，不将 Pareto 位置称为安全。缺 HD95 的记录仍在表中。",
+      "files": {
+        "png": "figure_08.png",
+        "svg": "figure_08.svg",
+        "pdf": "figure_08.pdf"
+      }
+    }
+  ],
+  "files": [
+    {
+      "name": "features.csv",
+      "sha256": "6311fb8613418d5770b63f11fdf5c01144f0d0951b2704b6f8537d761296a35b",
+      "bytes": 159757
+    },
+    {
+      "name": "compression.csv",
+      "sha256": "9de3e50780b386506b47086f507bb4c911c2524b406aef36d6412e619596a5c4",
+      "bytes": 1853695
+    },
+    {
+      "name": "candidate_scores.csv",
+      "sha256": "d85711cd6c477d30712feee0d52ec5f227a167755b2374c64b22ef39fc86a120",
+      "bytes": 1353192
+    },
+    {
+      "name": "outer_decisions.csv",
+      "sha256": "d6247ec287a0d1c34d1dd22ae6218161d14c0d5ffc100a72d9ac8956ab65295b",
+      "bytes": 1735716
+    },
+    {
+      "name": "folds.csv",
+      "sha256": "e2e3189342cde1c28c8d4603eba357cf34bc2213c6521f558f755f601aa092a3",
+      "bytes": 106880
+    },
+    {
+      "name": "feature_associations.csv",
+      "sha256": "6ee7fb609782a58144ba7037f9d53bdada8a825fa0d6fe03b66b186d0237cf57",
+      "bytes": 36104
+    },
+    {
+      "name": "group_summaries.csv",
+      "sha256": "42d4ceca1e838c1c5af4d2b090031d596319448e6dac180095b5fd10dd96a79f",
+      "bytes": 10951
+    },
+    {
+      "name": "paired_comparisons.csv",
+      "sha256": "ff559d4f69ae860383161e6745afeeb53f094fdcb6ea6085abca8beafc0842f6",
+      "bytes": 10356
+    },
+    {
+      "name": "subgroups.csv",
+      "sha256": "aa5c02d7ada0352e25355c239fb66e8e97e851d6b780219bf9adc5b17ed592d2",
+      "bytes": 14938
+    },
+    {
+      "name": "mixed_effects.csv",
+      "sha256": "0f1b4d6f282e2bd2e0f7e6d41cd4f8e1939f057981b8030461316d37cc1159d5",
+      "bytes": 746
+    },
+    {
+      "name": "prediction_performance.csv",
+      "sha256": "f454a668fd506af18d5dddecedb73df53f6545004ff102d59c20befb68179db2",
+      "bytes": 5751
+    },
+    {
+      "name": "IACS_v2_results.xlsx",
+      "sha256": "26053c79867aca073273c8dbbaae15fb067d16d1b48ed3f3069a5161a140aa23",
+      "bytes": 1896086
+    },
+    {
+      "name": "figure_01.png",
+      "sha256": "3e24296f90b5e479617e10853fbff220fb648cd4d11e248762d9aef8d36ec591",
+      "bytes": 242257
+    },
+    {
+      "name": "figure_01.svg",
+      "sha256": "79f8def2f5b7c3c08b2a3f25ce468d27f058ac397ff1cf1b526b3059acaa2486",
+      "bytes": 6707
+    },
+    {
+      "name": "figure_01.pdf",
+      "sha256": "ab71311416b4892d1782677d2bdb44fc43ba078b49ffd6c4af1eb037f9332669",
+      "bytes": 50229
+    },
+    {
+      "name": "figure_02.png",
+      "sha256": "206cd826831d9bf02afd96a7865993425e2fc032dc2668908741422e51699953",
+      "bytes": 218826
+    },
+    {
+      "name": "figure_02.svg",
+      "sha256": "d9a01f1be9fb21189801b32e6d68d3c2f7754a7ee9dd89220b4cb3d8feec3757",
+      "bytes": 54092
+    },
+    {
+      "name": "figure_02.pdf",
+      "sha256": "ced71e3f8a33eab94f2ce0c383b6f01e0211b45c07c29c70675bfa50693874a8",
+      "bytes": 30622
+    },
+    {
+      "name": "figure_03.png",
+      "sha256": "08e96b29726d4e972d119f5ae9d7384a67f70416aa92955a2e0411c622f9aded",
+      "bytes": 1006629
+    },
+    {
+      "name": "figure_03.svg",
+      "sha256": "9c198a2d382e1edc55c714a7e09d3282480d6e30fa9eedcbe855d3c5fdcaef97",
+      "bytes": 509260
+    },
+    {
+      "name": "figure_03.pdf",
+      "sha256": "7117763e6f2b82e98e92afbd24ebe743d3ae671d3eb713b65332d2b8c38a5c3c",
+      "bytes": 82582
+    },
+    {
+      "name": "figure_04.png",
+      "sha256": "12c9ac70b7226daff912254a28abf245d5d29638eea587162db8106f241e441f",
+      "bytes": 667439
+    },
+    {
+      "name": "figure_04.svg",
+      "sha256": "67339a4faa1c95adefc4f5c9ed715abd8bd548707d5ebaf25954a55338018e5d",
+      "bytes": 805281
+    },
+    {
+      "name": "figure_04.pdf",
+      "sha256": "6184662130cc59b51570ff49ca7b48cd2464f7e03d14a9d3922bd0c8f5a77704",
+      "bytes": 90532
+    },
+    {
+      "name": "figure_05.png",
+      "sha256": "7ef30cea1827b8f549187f9e28c8811ae7ee2699bb7354fac68154e702892770",
+      "bytes": 298883
+    },
+    {
+      "name": "figure_05.svg",
+      "sha256": "991fe5ce3ac23e65e478a3a03bdbe57ad848fb1e1eb0939ce66ff9b274d014f7",
+      "bytes": 42070
+    },
+    {
+      "name": "figure_05.pdf",
+      "sha256": "453a28b5024f45826dbc46165e63673f29cb072505ee095b3c6826b5ca61de6b",
+      "bytes": 86002
+    },
+    {
+      "name": "figure_06.png",
+      "sha256": "4620362cf43e7b5337b74040d32534489fb534c61a29b28a46d0881d4acf10ad",
+      "bytes": 336030
+    },
+    {
+      "name": "figure_06.svg",
+      "sha256": "2009bd11417ac365538e07cbd3ff672973b2106b956ed42f47d7c20e9859cfeb",
+      "bytes": 29429
+    },
+    {
+      "name": "figure_06.pdf",
+      "sha256": "2270a18206eeb45c3e85e1be6d69fa2c7c72f26d37933c28ab44287809500b09",
+      "bytes": 37991
+    },
+    {
+      "name": "figure_07.png",
+      "sha256": "2d505d5a8b53ab9617490adb0e2ad90a4743e494863c7aeca913a55cefab2de1",
+      "bytes": 309348
+    },
+    {
+      "name": "figure_07.svg",
+      "sha256": "432e33b3688a47993c4ff6d79412291bfdce2f14bc378e704a0c9df864655724",
+      "bytes": 26538
+    },
+    {
+      "name": "figure_07.pdf",
+      "sha256": "926d7f706fb00e73b302c15aed06fad7ebae6b57b58ce0c667c9bfcd2af602ac",
+      "bytes": 32893
+    },
+    {
+      "name": "figure_08.png",
+      "sha256": "37ad8bb4f40620bf63bc62ff23c34166f002f1a84567b647ddd7448296059b85",
+      "bytes": 1067979
+    },
+    {
+      "name": "figure_08.svg",
+      "sha256": "64c8bda2232dbec8816316add70d62c67bf2700edb67b4b20fe08f23b0c4bece",
+      "bytes": 448917
+    },
+    {
+      "name": "figure_08.pdf",
+      "sha256": "32dccfd91ae7edd78917b17142f7e576b66225c314a33d4abcee897a75c11114",
+      "bytes": 88395
+    },
+    {
+      "name": "report.json",
+      "sha256": "0a2b20f226cc8989954bbcc0300e313699f5f2bd78c83828a60cb141d950beda",
+      "bytes": 50924401
+    },
+    {
+      "name": "dashboard.html",
+      "sha256": "a40d87e3cc6427654399ef4b42564661a2cc1dc94161458767ca50b249e4e060",
+      "bytes": 19984754
+    },
+    {
+      "name": "REPORT_STATUS.md",
+      "sha256": "d8358186bad6a48a5d8c7b0cf86245adb1e59bd5df268e3a5b9bb5adb391cda4",
+      "bytes": 1205
+    }
+  ]
+}

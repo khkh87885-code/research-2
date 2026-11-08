@@ -1,0 +1,10 @@
+{
+  "error_type_counts": {
+    "RuntimeError": 63
+  },
+  "generic_context_counts": {
+    "deterministic_cuda_operation_unavailable": 63
+  },
+  "free_form_messages_exported": false,
+  "interpretation": "Context labels use fixed phrase checks, not patient-specific error text"
+}

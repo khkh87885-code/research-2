@@ -1,0 +1,25 @@
+**********************
+PowerShell transcript start
+Start time: 20261108131933
+Username: WIN-M22PEG4B0TN\Administrator
+RunAs User: WIN-M22PEG4B0TN\Administrator
+Configuration Name: 
+Machine: WIN-M22PEG4B0TN (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\dependencies\native\powershell\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$projectRoot = 'D:\Codex工作区\busbra_sam_pilot'; $config = Get-Content -LiteralPath '.\configs\iacs_v2_development.json' -Raw -Encoding utf8 | ConvertFrom-Json; $firstRecord = Import-Csv -LiteralPath $config.datasets[0].manifest -Encoding utf8 | Select-Object -First 1; $sourceImage = Join-Path $config.datasets[0].root $firstRecord.image_path; & '.\scripts\Invoke-IACS-v2.ps1' -Step decide -ImagePath $sourceImage -PolicyPath (Join-Path $config.run_root 'cross_validation\full_development_policy.json') -OutputPath (Join-Path $config.run_root 'deployment\image_only_functional_v1') 2>&1 | Tee-Object -FilePath (Join-Path $config.run_root 'logs\image_only_functional.log'); exit $LASTEXITCODE
+Process ID: 14888
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+{"selected_condition": "jpeg_q85", "reason": "minimum_encoded_bytes_among_estimated_Dice_acceptable_candidates", "fallback": false}
+**********************
+PowerShell transcript end
+End time: 20261108131938
+**********************

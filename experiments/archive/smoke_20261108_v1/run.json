@@ -1,0 +1,217 @@
+{
+  "fingerprint_sha256": "d762bf81e9237ed1fb2cf99a57d4013492703f0d75f555f426a73946b80a7322",
+  "provenance": {
+    "config": {
+      "seed": 20261108,
+      "model": {
+        "source": "D:/Codex\u5de5\u4f5c\u533a/segment-anything",
+        "checkpoint": "D:/codex\u8bba\u6587/models/sam_vit_b_01ec64.pth",
+        "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+        "commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+        "type": "vit_b",
+        "device": "cuda"
+      },
+      "datasets": [
+        {
+          "dataset": "BUS-BRA",
+          "split": "development",
+          "root": "D:/codex\u8bba\u6587",
+          "manifest": "D:/codex\u8bba\u6587/busbra_splits/busbra_development.csv",
+          "sha256": "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+        },
+        {
+          "dataset": "BUS-BRA",
+          "split": "internal_holdout",
+          "root": "D:/codex\u8bba\u6587",
+          "manifest": "D:/codex\u8bba\u6587/busbra_splits/busbra_internal_holdout.csv",
+          "sha256": "2727d11d0db4f41ddd70a915576e5273a9d0ecbd735f151ae2ae710d0963a026"
+        },
+        {
+          "dataset": "BrEaST",
+          "split": "external_test",
+          "root": "D:/Codex\u5de5\u4f5c\u533a/busbra_sam_pilot/breast_external_extracted",
+          "manifest": "D:/Codex\u5de5\u4f5c\u533a/busbra_sam_pilot/breast_external_test/manifest.csv",
+          "sha256": "33db74c60e8ce242f82f5efcd1007c08151e6faf359a6204f68a251791dbda22"
+        }
+      ],
+      "output": "D:\\Codex\u5de5\u4f5c\u533a\\busbra_sam_pilot\\research_output\\smoke_20261108_v1",
+      "purpose": "development_technical_smoke",
+      "select": {
+        "limit": 3,
+        "datasets": [
+          "BUS-BRA"
+        ],
+        "splits": [
+          "development"
+        ]
+      },
+      "prompt_strategies": [
+        "mechanism_gt_box",
+        "application_full_frame"
+      ],
+      "max_attempts": 2,
+      "upload_mbps": 10,
+      "bootstrap": 500,
+      "adaptive": {
+        "enabled": true
+      },
+      "conditions": [
+        {
+          "format": "baseline",
+          "id": "baseline"
+        },
+        {
+          "quality": 95,
+          "format": "jpeg",
+          "id": "jpeg_q95"
+        },
+        {
+          "quality": 85,
+          "format": "jpeg",
+          "id": "jpeg_q85"
+        },
+        {
+          "quality": 75,
+          "format": "jpeg",
+          "id": "jpeg_q75"
+        },
+        {
+          "quality": 60,
+          "format": "jpeg",
+          "id": "jpeg_q60"
+        },
+        {
+          "quality": 40,
+          "format": "jpeg",
+          "id": "jpeg_q40"
+        },
+        {
+          "lossless": true,
+          "compress_level": 6,
+          "format": "png",
+          "id": "png_l6"
+        },
+        {
+          "format": "png",
+          "id": "scale_090",
+          "scale": 0.9
+        },
+        {
+          "format": "png",
+          "id": "scale_075",
+          "scale": 0.75
+        },
+        {
+          "format": "png",
+          "id": "scale_050",
+          "scale": 0.5
+        },
+        {
+          "format": "png",
+          "id": "scale_025",
+          "scale": 0.25
+        },
+        {
+          "quality": 75,
+          "order": "resize_encode",
+          "format": "jpeg",
+          "id": "cr2_075_q75",
+          "scale": 0.75
+        },
+        {
+          "quality": 75,
+          "order": "encode_resize",
+          "format": "jpeg",
+          "id": "cr3_q75_075",
+          "scale": 0.75
+        },
+        {
+          "format": "png",
+          "interpolation": "bicubic",
+          "id": "cr5_075_png",
+          "scale": 0.75
+        },
+        {
+          "quality": 100,
+          "lossless": true,
+          "format": "webp",
+          "id": "webp_lossless"
+        },
+        {
+          "lossless": true,
+          "format": "jpeg2000",
+          "id": "jp2_lossless"
+        }
+      ]
+    },
+    "code": {
+      "__init__.py": "323e45ac652d01df3bf8e6c426d7aabece73eb82a2be2820ffc43b088f88a56a",
+      "__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+      "adaptive.py": "9d31ba91a02aa333d67543ea7b3d93f96934268229d28d94ae0b88a9d3028fd5",
+      "cli.py": "d02c117e406a5822f1b25ee12d861c549707704d4cedc02ee56044e8dd74917d",
+      "dashboard.py": "5d2e369cb9825374745bb748cad539387d1d3753ef3beaf595bf00729204b8ab",
+      "datasets.py": "152931769cbc89eb140c0f25a2ab8d89c9504013053b6f1fd3ffbdea758fc252",
+      "engine.py": "72be89d2e6d8b938a2aa5556faaa5c7d5fc6edcd6f66875dbda8d34b3127d7ef",
+      "export.py": "d4e9f1aa0e66bf9fdc27cfad1bced33aef151218cbb2d5f99b386cff2d803172",
+      "features.py": "78d433d145e976a084571214b59e147f93bf70b2dd1c5e230e5c205016f7ef80",
+      "imaging.py": "31508c0792382f393705645b3e4e968fc3c7989833613c1f1bdedf9ec9947d70",
+      "metrics.py": "eeb78f4eb2d8b4d088c3bc35ae85ef853d2992c3edc3da915fdbf1266826fbed",
+      "model.py": "96ab4baafa32cf31e02d2762a9de492108b5161079c78905322fc530268e86ae",
+      "statistics.py": "62cd39ecab3b469906be7105ad20bcb2ba9981aee0517b4f58c34c20d6a2621f",
+      "legacy_run_single_case.py": "781652a8a72040f04a0363f130aaede242395e88748f18136e118b411031b8e2"
+    },
+    "source_hashes": {
+      "adce3872dddfae258f24f399": {
+        "image": "8c8721e026be7da429a2715889868eaa4218e58ec2c2c482c150d0be64306c0e",
+        "mask": "e9fc949e031fdc1b60e2ed2d3092c87b2b39c2c54653fc653f2fb70ad8a7e88b"
+      },
+      "af8ee548519e19a3a9902bed": {
+        "image": "7379bebc0f0aeac06c9dd87494d5c31e4921607ac0b165a6b77820f8a9e351e3",
+        "mask": "de52a39a3dffcc4aa5981a6dda1d61a4a3ed2d7730117b5014312f0c228c79e1"
+      },
+      "fb9948c85fcb3a506b34569c": {
+        "image": "aaaea3c864e54701d227b930fd00caa3ea5d7684c390420dcc28848efdabbaaf",
+        "mask": "30881b323111940fb8c1a3cede874bef475f8f876ee17ca57a2463f64dc1fa83"
+      }
+    },
+    "manifests": [
+      {
+        "dataset": "BUS-BRA",
+        "split": "development",
+        "images": 213,
+        "patients": 213,
+        "manifest_sha256": "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+      },
+      {
+        "dataset": "BUS-BRA",
+        "split": "internal_holdout",
+        "images": 851,
+        "patients": 851,
+        "manifest_sha256": "2727d11d0db4f41ddd70a915576e5273a9d0ecbd735f151ae2ae710d0963a026"
+      },
+      {
+        "dataset": "BrEaST",
+        "split": "external_test",
+        "images": 252,
+        "patients": 252,
+        "manifest_sha256": "33db74c60e8ce242f82f5efcd1007c08151e6faf359a6204f68a251791dbda22"
+      }
+    ],
+    "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+  },
+  "started_at": "2026-11-08T04:15:41.741049+00:00",
+  "purpose": "development_technical_smoke",
+  "runtime": {
+    "python": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.4.1+cu118",
+    "numpy": "1.24.4",
+    "pillow": "10.4.0"
+  },
+  "limitations": [
+    "Technical pilot only unless separately prespecified",
+    "Distances in pixels",
+    "Full-frame application prompt is unvalidated",
+    "IACS performance unvalidated"
+  ]
+}

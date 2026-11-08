@@ -1,0 +1,18 @@
+{
+  "data_root": "C:/Research/private_data",
+  "pilot_root": "C:/Research/research-2/pilot",
+  "sam_source": "C:/Research/segment-anything",
+  "sam_commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+  "checkpoint": "C:/Research/private_models/sam_vit_b_01ec64.pth",
+  "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "output_root": "C:/Research/private_results/workbench",
+  "patient_ids_verified": false,
+  "independent_external_verified": false,
+  "random_seed": 20261108,
+  "bandwidth_mbps": 10,
+  "rtt_ms": 0,
+  "boundary_tolerance_pixels": 2,
+  "dice_noninferiority_margin": null,
+  "hd95_margin": null,
+  "formal_protocol_locked": false
+}

@@ -1,0 +1,2 @@
+# Preserve audited bytes, including historical CRLF files, across platforms.
+* -text

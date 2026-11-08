@@ -1,0 +1,21 @@
+# Private assets must never be added to this publication checkout.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv*/
+.compression_private/
+*.key
+*.pem
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.sqlite*
+*.db
+private_data/
+private_models/
+private_results/
+local_analysis/
+work/
+**/processed_image.png
+**/prediction_mask.png

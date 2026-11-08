@@ -1,0 +1,88 @@
+{
+  "sha256": "20aab9d7b4028fc0a05199f30ff0b65fb56b98f48880f2d1feeea9f70e26414d",
+  "created_at": "2026-11-08T04:54:48.748401+00:00",
+  "provenance": {
+    "config": {
+      "project_root": "D:\\Codex工作区\\busbra_sam_pilot",
+      "run_root": "D:\\Codex工作区\\busbra_sam_pilot\\research_output\\IACS_v2\\cpu_smoke_20261108_v1",
+      "datasets": [
+        {
+          "dataset": "BUS-BRA",
+          "split": "development",
+          "root": "D:/codex论文",
+          "manifest": "D:/codex论文/busbra_splits/busbra_development.csv",
+          "sha256": "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+        }
+      ],
+      "model": {
+        "source": "D:/Codex工作区/segment-anything",
+        "checkpoint": "D:/codex论文/models/sam_vit_b_01ec64.pth",
+        "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+        "commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+        "type": "vit_b",
+        "device": "cuda"
+      },
+      "reuse_runs": [],
+      "seed": 20261108,
+      "device": "cpu",
+      "max_attempts": 2,
+      "prompt_strategy": "mechanism_gt_box",
+      "analysis_unit": "Case",
+      "patient_semantics_verified": false,
+      "validation": {
+        "bootstrap": 2000,
+        "hd95_margin": null,
+        "seed": 20261108,
+        "inner_folds": 3,
+        "exploratory": true,
+        "dice_margin": 0.02,
+        "outer_folds": 5
+      },
+      "technical_limit": 1,
+      "conditions": [
+        "baseline"
+      ],
+      "cpu_threads": 4
+    },
+    "code": {
+      "new": {
+        "collector.py": "c6225bf49cdb1ba53da7c8e45377ec73989017e1b0ac11b502a861634a093393",
+        "common.py": "2b525c20dd90c7d0d849112fd539d9ef4de09f61eff6e077280247401e60efbf"
+      },
+      "reused": {
+        "__init__.py": "323e45ac652d01df3bf8e6c426d7aabece73eb82a2be2820ffc43b088f88a56a",
+        "__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+        "adaptive.py": "e61f4ecea675562d9c11a6a2c729b090691ba790b5cc7dcd7ceb8eac5d629254",
+        "cli.py": "d02c117e406a5822f1b25ee12d861c549707704d4cedc02ee56044e8dd74917d",
+        "dashboard.py": "222ee95f63c2309aa466d6d1251737408b9c0619012564b0f9b1cefd39315c1b",
+        "datasets.py": "a34f3237b9f6c8aae063c0021fa1d485a47ec2aa996a50382661bf38f6ed59ef",
+        "engine.py": "5a8650e77e95249e65a9899242b8bce973db1a15529459d2139446b8540c9c69",
+        "export.py": "d4e9f1aa0e66bf9fdc27cfad1bced33aef151218cbb2d5f99b386cff2d803172",
+        "features.py": "78d433d145e976a084571214b59e147f93bf70b2dd1c5e230e5c205016f7ef80",
+        "imaging.py": "31508c0792382f393705645b3e4e968fc3c7989833613c1f1bdedf9ec9947d70",
+        "metrics.py": "eeb78f4eb2d8b4d088c3bc35ae85ef853d2992c3edc3da915fdbf1266826fbed",
+        "model.py": "96ab4baafa32cf31e02d2762a9de492108b5161079c78905322fc530268e86ae",
+        "statistics.py": "3d261d9d3b8500497aa007e251035b8382fa8183347964c929abacb7034fb800",
+        "legacy_run_single_case.py": "781652a8a72040f04a0363f130aaede242395e88748f18136e118b411031b8e2"
+      }
+    },
+    "sources": {
+      "c015f2bc469339befe0040f8": {
+        "image": "56212b411660ecdffca22213837f3bccdcd6bad64498a352c6a0df1f462c433f",
+        "mask": "0ee27ff722bbf13f24026da7ff955fb994406c328f9973058148c13979651dcb"
+      }
+    },
+    "conditions": [
+      {
+        "id": "baseline",
+        "format": "baseline"
+      }
+    ],
+    "manifest_sha256": [
+      "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+    ],
+    "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+  },
+  "analysis_unit": "Case",
+  "patient_semantics_verified": false
+}

@@ -1,0 +1,226 @@
+{
+  "experiment_id": "EXP_7fa81c6f43d1419da63966fb06702d82",
+  "created_at": "2026-11-08T03:57:56.164384+00:00",
+  "status_at_creation": "planned",
+  "dataset": "BUS-BRA",
+  "split": "development",
+  "study_status": "technical_pilot_unvalidated",
+  "dataset_version": "c8ec52e3fdf29604",
+  "dataset_checksum": "c8ec52e3fdf29604ee7dcb1b67407f7b3c261d6f96b9a93eab85521bbbe8ec90",
+  "variant_recipes": {
+    "baseline": {
+      "format": "original",
+      "scale": 1.0,
+      "order": "copy_bytes"
+    },
+    "jpeg_q85": {
+      "format": "JPEG",
+      "quality": 85,
+      "scale": 1.0,
+      "order": "encode"
+    },
+    "scale_50": {
+      "format": "PNG",
+      "level": 9,
+      "scale": 0.5,
+      "interpolation": "lanczos",
+      "order": "resize_encode"
+    },
+    "cr2_q75_s50": {
+      "format": "JPEG",
+      "quality": 75,
+      "scale": 0.5,
+      "interpolation": "lanczos",
+      "order": "resize_encode",
+      "level": 9
+    },
+    "png": {
+      "format": "PNG",
+      "scale": 1.0,
+      "level": 9,
+      "order": "encode"
+    }
+  },
+  "variants": [
+    "baseline",
+    "jpeg_q85",
+    "scale_50",
+    "cr2_q75_s50",
+    "png"
+  ],
+  "iacs": null,
+  "prompt_strategy": "application",
+  "prompt_description": "fixed central 80% image field; unvalidated automatic candidate",
+  "legacy_prompt_source_sha256": "781652a8a72040f04a0363f130aaede242395e88748f18136e118b411031b8e2",
+  "device": "cpu",
+  "model_name": "SAM",
+  "model_version": "v1-vit_b",
+  "platform_config": {
+    "sam_commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+    "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+    "case_identity_verified": false,
+    "independent_external_verified": false,
+    "random_seed": 20261108,
+    "bandwidth_mbps": 10,
+    "rtt_ms": 0,
+    "boundary_tolerance_pixels": 2,
+    "dice_noninferiority_margin": null,
+    "hd95_margin": null,
+    "formal_protocol_locked": false
+  },
+  "runtime": {
+    "python": "3.8.20 (default, Oct  3 2024, 15:19:54) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "libraries": {
+      "numpy": "1.24.4",
+      "Pillow": "10.4.0",
+      "torch": "2.4.1+cu118",
+      "torchvision": "0.19.1+cu118",
+      "scipy": "1.10.1",
+      "pandas": "2.0.3",
+      "statsmodels": "0.14.1",
+      "openpyxl": "3.1.5",
+      "matplotlib": "3.7.5"
+    },
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD"
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB, 2159 MiB",
+    "cpu": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD"
+  },
+  "selection_rule": "frozen one-image-per-case manifest; image_id ascending; first limit or all when limit=0",
+  "records": [
+    {
+      "dataset": "BUS-BRA",
+      "split": "development",
+      "width": 275,
+      "height": 372,
+      "original_bytes": 53786,
+      "format": "PNG",
+      "bit_depth": 8,
+      "gray_min": 25.0,
+      "gray_max": 255.0,
+      "pixel_spacing": null,
+      "annotation_status": "complete",
+      "data_status": "ok",
+      "patient_id_source": "bus_data.csv:Case",
+      "case_identity_verified": false,
+      "selected_in_frozen_manifest": true,
+      "image_mode": "L",
+      "dtype": "uint8",
+      "exif_orientation": 1,
+      "case_key": "957776cdcc62a20370621d1c",
+      "image_key": "c015f2bc469339befe0040f8"
+    }
+  ],
+  "input_manifest_checksums": [
+    {
+      "source_file": "busbra_development.csv",
+      "sha256": "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+    },
+    {
+      "source_file": "busbra_internal_holdout.csv",
+      "sha256": "2727d11d0db4f41ddd70a915576e5273a9d0ecbd735f151ae2ae710d0963a026"
+    },
+    {
+      "source_file": "bus_data.csv",
+      "sha256": "f218d0f10b0aeeb14ff4b2cfed8631b2f4a7cf608e564548b35bddd55f3aafb3"
+    },
+    {
+      "source_file": "manifest_lock.json",
+      "sha256": "12c58755408f397f67f656b8a3ca89125ad4e0478590ad23bd8f3a03524f127c"
+    },
+    {
+      "source_file": "BrEaST-Lesions_USG-images_and_masks-Dec-15-2023.zip",
+      "sha256": "c32e49cdfa54042e065582d0cb35978b5fc5e5b5e461b33bf773fb50cfdad355"
+    },
+    {
+      "source_file": "manifest.csv",
+      "sha256": "33db74c60e8ce242f82f5efcd1007c08151e6faf359a6204f68a251791dbda22"
+    },
+    {
+      "source_file": "BrEaST-Lesions-USG-clinical-data-Dec-15-2023.xlsx",
+      "sha256": "89a8874496a6f1f93960390b963f7369b90f7e72ee08a738f2d17e37f5eff8bf"
+    }
+  ],
+  "code_checksums": [
+    {
+      "file": "requirements-extra.txt",
+      "sha256": "d30570e277f9b16e24ada65f4613505d0e5ac409ed52c7c7fc8962c762d0ca3e"
+    },
+    {
+      "file": "research_platform/__init__.py",
+      "sha256": "79e5f13e59a1540931485ed1d9da665649ef734ebb07b3f421726d6b206ad760"
+    },
+    {
+      "file": "research_platform/adaptive.py",
+      "sha256": "6444037a4897d13370340d630639476d7d04c3960ecb728da46dd70b3d8dac32"
+    },
+    {
+      "file": "research_platform/cli.py",
+      "sha256": "f88ae72a3160c7778e834132f4dd4b7df24576e3708fc5f6c7b6152c9fca85b6"
+    },
+    {
+      "file": "research_platform/common.py",
+      "sha256": "24d8241ecc59a030f010585b25c7846179a16d691a4b16a8f942d89f287caa18"
+    },
+    {
+      "file": "research_platform/compression.py",
+      "sha256": "6950bbd926702e606ede0958c60c544b5c6ec752775f562f775ed2a2cc0590d2"
+    },
+    {
+      "file": "research_platform/datasets.py",
+      "sha256": "7cc6180e96e2ba7d39e0a8160bf272c813dd89b0dafc0847190a66790cf9238d"
+    },
+    {
+      "file": "research_platform/engine.py",
+      "sha256": "3502635d834c12caa681f2f664d8ea2c6ca8f7bc33cc3b557da1ded1656a2079"
+    },
+    {
+      "file": "research_platform/exports.py",
+      "sha256": "cfa2e2e70fc3a1688a4def85502037f532233b1d798bef73fd7c3b388eaddb14"
+    },
+    {
+      "file": "research_platform/features.py",
+      "sha256": "8abd9fda8bae6e82416588e86156539abd61b717735601348f7c00171ae25bb6"
+    },
+    {
+      "file": "research_platform/geometry.py",
+      "sha256": "083e8f3f138c7bbbfbd310f470e5ace16e99e87a062be8f3c18cb9154bbe1536"
+    },
+    {
+      "file": "research_platform/metrics.py",
+      "sha256": "96ff3798a8632fd44bd812b6f31f865fe8075d4bfdacb4d2c8f200681a802766"
+    },
+    {
+      "file": "research_platform/models.py",
+      "sha256": "1d61b7ee35e5de74eb7524a28d8260445733c582e5b68222f16c1d47688f6751"
+    },
+    {
+      "file": "research_platform/server.py",
+      "sha256": "a4d1d5a4773ed6ed19f904d1a95472753f2383553e77e0bffeb424c4579cf7fb"
+    },
+    {
+      "file": "research_platform/statistics.py",
+      "sha256": "51d2a3a97be84489175ad9e3b8b01f32720495fc44e7739d94ee79e562f2c451"
+    },
+    {
+      "file": "research_platform/store.py",
+      "sha256": "37c5d8edd6a2a9179cff0f3f90385e62975da629c107a19c6aea22a33a248701"
+    },
+    {
+      "file": "run.py",
+      "sha256": "a3178a56400fcc2a6f2617759d9201e10c068447dfbd358ef56527ef3e97de29"
+    },
+    {
+      "file": "web/index.html",
+      "sha256": "e6e243fc6869657950140319477684bde0514bc615cf7af9216e5878aea99b67"
+    }
+  ],
+  "publication_notes": {
+    "analysis_unit": "Case/source identifier; patient semantics not inferred",
+    "paths_raw_identifiers_pathology_and_per_image_hashes_removed": true,
+    "failure_text_omitted": true,
+    "clinical_conclusion": null
+  }
+}

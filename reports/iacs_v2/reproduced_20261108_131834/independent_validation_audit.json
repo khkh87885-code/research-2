@@ -1,0 +1,38 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "train_cases": 170,
+      "validation_cases": 43,
+      "overlap": 0
+    },
+    {
+      "fold": 1,
+      "train_cases": 170,
+      "validation_cases": 43,
+      "overlap": 0
+    },
+    {
+      "fold": 2,
+      "train_cases": 170,
+      "validation_cases": 43,
+      "overlap": 0
+    },
+    {
+      "fold": 3,
+      "train_cases": 171,
+      "validation_cases": 42,
+      "overlap": 0
+    },
+    {
+      "fold": 4,
+      "train_cases": 171,
+      "validation_cases": 42,
+      "overlap": 0
+    }
+  ],
+  "decisions_replayed": 852,
+  "selection_mismatches": 0,
+  "outcome_corruption_changes": 0,
+  "source_model_unchanged": true
+}

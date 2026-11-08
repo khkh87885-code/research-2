@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "dataset_version": "c8ec52e3fdf29604",
+  "dataset_checksum": "c8ec52e3fdf29604ee7dcb1b67407f7b3c261d6f96b9a93eab85521bbbe8ec90",
+  "summary": {
+    "images": 2131,
+    "datasets": {
+      "BUS-BRA": {
+        "images": 1875,
+        "source_case_code_count": 1064,
+        "case_identity_verified": false,
+        "complete_annotations": 1875,
+        "readable_images": 1875,
+        "frozen_manifest_selected": 1064
+      },
+      "BrEaST": {
+        "images": 256,
+        "source_case_code_count": 256,
+        "case_identity_verified": true,
+        "complete_annotations": 252,
+        "readable_images": 256,
+        "frozen_manifest_selected": 252
+      }
+    },
+    "issue_counts": {
+      "metadata_dimension_mismatch": 4,
+      "not_in_lesion_experiment_manifest": 4,
+      "patient_identity_semantics_unverified": 1,
+      "external_patient_independence_unverified": 1
+    },
+    "external_validation_label": "cross_dataset_validation"
+  }
+}

@@ -1,0 +1,703 @@
+{
+  "fold": 0,
+  "train_cases": 170,
+  "validation_cases": 43,
+  "train_case_keys": [
+    "0050eba71a9fc574b95912bb",
+    "01bb08d53b7591020abb4084",
+    "03576bcc114b2caa51bf0f1f",
+    "057c1d2227b1fcb1293146ec",
+    "0766052cf14f8d8061fbe485",
+    "07d2ad7c08de2d9fbd21d0d8",
+    "0ae6beaf86b89903029bf8bc",
+    "0c3eda67e356b3ecf2fe5660",
+    "0f8c6320e9a0ab680c0b41ae",
+    "109065b6cf8ce79ee01be01a",
+    "1266a06581c8557d7d5a0312",
+    "13ac5623e2ef68ad710d6ee0",
+    "1618385724cce67557db8a30",
+    "16321aa2753059aea9d92075",
+    "16508eb5fdddc727be0e847e",
+    "16f2ca8ce604f601488f2c3d",
+    "18f997957b9094eac7ee846f",
+    "1932dfc1e24e37d458ef0111",
+    "198ff9fbae0bbb9a4232ff0d",
+    "1b9a1bb7fd2720821cd4b0dd",
+    "1c4bafe6424c1df14ab28314",
+    "228aa236568ce756f1a4e6dc",
+    "23899eb43af998cdc4ec8bb5",
+    "2467b0f0fa0379fd37255137",
+    "24fbeb3652b14ba9daca5144",
+    "279205058799b9b7d9a3510c",
+    "27ded9d118cb82b65fe5bacd",
+    "2bb554d72683310f045f2db4",
+    "2cc1914c9df9b758658e0a37",
+    "2d3fdc16c3bf2bafec66a343",
+    "2e1be39220e3eee5bd62595e",
+    "2f228234ba574981a2febfef",
+    "2fba5ff3248898f6382aa7f8",
+    "376681489dd9db72f76c8c20",
+    "38a9f55493d133a88f065a27",
+    "3c572d8570ecd6ba3c64f89d",
+    "3c80a3dbdde8c81a04d91cc0",
+    "3e4a6fe10dc53900df27eceb",
+    "3e5e6979be5abab96b5ec793",
+    "4110bf09d29ae2225fd8febf",
+    "4143772fb2ea81d353d981dd",
+    "42b5465534d5241854ac81e2",
+    "4346bf2b412fe18953e17600",
+    "436e40e7fd002ed128742cdb",
+    "453fa7dbc74dfa5f1568ea4f",
+    "4598dc1a95fe631d60803f46",
+    "47a67084dccb78d82d2b76cd",
+    "49090c7119f99ea3ee852983",
+    "499f4209b1f093a9ec7dac71",
+    "49f04c5db251156a42f8c6d8",
+    "4a3dc7c79dca28e6235e1b88",
+    "4e23ac8e9acf1a2e343b2625",
+    "541dbcf1272258304f77c234",
+    "564f1d17a1ceea3aa29daabd",
+    "56eb38c68258700595d09abd",
+    "57227fdb150969f3e09ea621",
+    "58c13aec3f2b063286963583",
+    "5b464cfa0c42329057fc3352",
+    "5b69b2852b2026b7a4229657",
+    "5c1fc87ecc823215e8ea8a60",
+    "5fea31f4d068e513a62ede83",
+    "606eb605a0ee2119444f300e",
+    "6144c60f70c98bfd343aaf23",
+    "61961015d26d9cedeb35b4c3",
+    "61ea8a6c0c95de2dfe59be9d",
+    "640c806b58fdc84822943fcd",
+    "6455662806790541d8f5b9be",
+    "66ed127473df1e28e3906fd4",
+    "674cc88fac59b917049d191d",
+    "68021e11a73c09f6d06fa224",
+    "684378b97ad9ff4994a7120e",
+    "6cd53f224e89c93e7a0cb51f",
+    "6dab62ffc68e732abfeab60a",
+    "704363b9bb9df2bbb1fafebd",
+    "70578a889a703f5b21ffd46d",
+    "72f73408398d5def2ea80d74",
+    "732704eddc967b4947fc7c9f",
+    "738ad7594102234060b9f8e4",
+    "74c9a6172ba195f57b9f56a7",
+    "750a8a6ca2a6023a7d03dd82",
+    "7728787132a5b5d6a0da6f50",
+    "77a9c9f0540a10a5b4d7b9e0",
+    "7823087d4a5b74efa891f88d",
+    "78ddd79d75075190d26a9e47",
+    "7ce2a2bfe3f85e3d0d990cab",
+    "7d12c3224972fd9450331a39",
+    "7d16fef7db6692c697713123",
+    "7f1f5447b36ab314fec62567",
+    "8461f0e6b95d70cefead2751",
+    "852f0668cd4137eacc13b9b3",
+    "86a65f90f0d6f0c4888c4f50",
+    "8a015ccb56aae7c32e3db540",
+    "8a9cc7de9b90a2c96cfaea64",
+    "8df8271e108409f286848426",
+    "8e69201795282c6b9464e765",
+    "8ee2cfcb36dca9999c94a525",
+    "931dea72b6dee93e22593266",
+    "9467782c44e8edf02599531a",
+    "957776cdcc62a20370621d1c",
+    "9ba17cf64db023cf76ed1184",
+    "9da7fab50bfb2fa5ead98ddd",
+    "9e2d36adfeb3b9a3550924fc",
+    "9e5d21413ba28a1b6bccb575",
+    "9ef569f692c7ae8ee930a42a",
+    "a0004bc5418a06c1085913f6",
+    "a00244cc51dabec64b18596c",
+    "a07071dfea3b1f2165475583",
+    "a107b8b9143899bc8df2361b",
+    "a123ba65159faa14abf76236",
+    "a1f3f350912e2a2d34bc6037",
+    "a252d0c9ecb01bcf1b27d6ed",
+    "a2e808879b967d2a693d56d1",
+    "a52ddd017f55fdc680f67b3c",
+    "a5ce890f0dbc0c887501b8cf",
+    "b1d6020db35516b35e00a673",
+    "b24019890d19828ce2494ff9",
+    "b26c7448cf792e9ec2a543b0",
+    "b33bc902998cef2294742d3b",
+    "b48856afbfd7075a7ff9b0e2",
+    "b5055282df529cbbaf21726f",
+    "b520c507a6edee770453e7de",
+    "b534630dfd376afbc4100d2b",
+    "b73bfa52da0242dbc8b9acc0",
+    "b833fade672b20a47a77e9a7",
+    "b8edf0b5e7a9ecfdd9ea524c",
+    "b99a245342c586bae83bb923",
+    "baffc5aed255c7105c4a48a1",
+    "bc4efffb29d76ac302855763",
+    "c03082ec55306620e4fee921",
+    "c17a6446f1be446951141320",
+    "c3757c1a24c13107b0c8cc99",
+    "c58d9ac47e1e672b47ec0c5d",
+    "c649099225096ebe8d38c3a9",
+    "c8d0676bf4323fcb330be5e5",
+    "caeddb6a1fa8ecdb4f1057d2",
+    "cb960df740e8433b0a632632",
+    "ce2bb5bd47807617f0ac741d",
+    "cf24283d9567a50aff6a691e",
+    "d0a77664b66e09cadedfdbdc",
+    "d42e063ace513a3472f86258",
+    "d46ff86a668fc37438aa500f",
+    "d53c3ea3620b3467d3f6e0b2",
+    "d72841c8cc5b64ff18211a88",
+    "dacc121d6564b2bf2bcb23f0",
+    "ddf305b59654c94ebd2a2d1d",
+    "de86a667e5661fe3081ee674",
+    "df2d0a42874dfda10531c40c",
+    "e3e03cfa01586949476bb957",
+    "e3fa1cdd16a9c488a36562ca",
+    "e43605cc01f5140e5027f187",
+    "e74890a89d27410a85da9a63",
+    "e78b174c71daf61b40e34f29",
+    "e7d85fa491c0624545beee6e",
+    "e86eed785ac16438558e78c4",
+    "ea1df960b4f5e7acd4506de3",
+    "eb4bbdb240b38ce1a0556a6b",
+    "ecf2cde9ccdd7fa9b6aa07ac",
+    "ede96dad075f64f2c8eb5955",
+    "eeb2efac5034f29b1aee2c4a",
+    "ef54c0c098ebe03dd8bd9970",
+    "f02f6c981439302437823a1b",
+    "f1c18e256f94f4a309498ccc",
+    "f3666ac66cb90ef4d45aba1c",
+    "f7b54b59f432695f1281f6a6",
+    "f7bc55318a8604163b847817",
+    "f85b8e24a1250da712387dea",
+    "f9e90761136f93d65b05ca37",
+    "fabf5d4aa29fb94b46845b56",
+    "fc045c90e87219a707fd8762",
+    "fd61d435aec2851467f57646"
+  ],
+  "validation_case_keys": [
+    "065ea620a6d28eb257a7178d",
+    "0e50cc89f6e9c88ec17be4fc",
+    "15412a251f74c2bdc4b61492",
+    "18d7fe00b624ac5b506fe421",
+    "215688d830f42e5bcfb712e7",
+    "2b9624a27741bfc2269c5f6d",
+    "2e70927bc9caa99718763059",
+    "3c168ec8e3a60e99e3d67109",
+    "3ed3e034b75387b54508f6d2",
+    "425d6ca44dffadebfa490629",
+    "497447b4e9bca857177d1a95",
+    "53dee70fc641173a39418acc",
+    "5894138e0d05c066445f1cf5",
+    "5e516526a881229431107e0f",
+    "614a361ae8780c3dd5a606cd",
+    "664763c889fe937d443cf37a",
+    "6bf88a039171f74297f4290d",
+    "71eeed0fdafe1fee24e15fdc",
+    "74ee5c4bda76367d75df0134",
+    "789588a43f0897755b68a280",
+    "7c6596c2091a8a639d60257f",
+    "7d170b726c5ec6cc6de8daea",
+    "89de03c286424c93297e59fd",
+    "8e786a2beabbbdb71db65196",
+    "98669de2cd92824e30a345b2",
+    "9e92bd2681be7ee8c194a793",
+    "a209ccbe0ba5e322a382cc03",
+    "a5e7565a724f7783b394193a",
+    "b3013b82fe46c1bd0855d082",
+    "b63d8d8036b37f19f4079d25",
+    "b9b1e58b28e175f8ad612f12",
+    "bcaae49cbd7d85bbb48a0dee",
+    "c34bd73043408a48287d0aa2",
+    "c97cc0735995806449dc7482",
+    "cf985ef2da9b098f5d1eb901",
+    "d56472a5fac78da4e58637f9",
+    "debeac952ef8f22792cc2353",
+    "e7121128d2e0f70b20eb656d",
+    "e82dd41da9f9a65a06538e72",
+    "ed6ff4865ce6c6510cbd59d9",
+    "f1822ccfe33b1f55f1882cf6",
+    "f8567c7cf3945068dd455c17",
+    "fef8b7de82e8d4041df444ae"
+  ],
+  "train_case_hash": "4dcb8fd319fe6a5088431ec21c184d7c89fbc4b2d6cb47acdd6fd3827d0f0b01",
+  "validation_case_hash": "e24c2489ca52538c2aa38cdd989a8b0407de4eff3525cdeea539f42b19e616ef",
+  "inner_selection": {
+    "inner_folds": [
+      {
+        "inner_fold": 0,
+        "train_case_hash": "1bf1394102ca21435d0ac77bb3e81fb340b059bfaa105c2160fd2b911075112c",
+        "validation_case_hash": "ea454cd8bcea18e90800a7d84ff2025b5313423cab6bab9204d8135f08505b40",
+        "train_cases": 113,
+        "validation_cases": 57
+      },
+      {
+        "inner_fold": 1,
+        "train_case_hash": "f7fbb75fdaf3f0dd6d411b19d25948ee6f1f26323702e193b2bf2a55841879c1",
+        "validation_case_hash": "053f20db358c0945e5fb411910483541616c035c1dd1bf8d29f37a93be0e34c8",
+        "train_cases": 113,
+        "validation_cases": 57
+      },
+      {
+        "inner_fold": 2,
+        "train_case_hash": "e6f062ccd549d77a18e6a1d3a99603965f79d45f4ecb428b0b554ef976849ddb",
+        "validation_case_hash": "5eddb9c3ac9de924de6f37e2d4ed1fb0126b637cefc219a1cef25d1bd814791f",
+        "train_cases": 114,
+        "validation_cases": 56
+      }
+    ],
+    "reference_Q85": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 24,
+      "violation_or_unobserved_rate": 0.1411764705882353,
+      "observed_violation_rate": 0.1411764705882353,
+      "mean_saving_pct": 60.04939499307238,
+      "mean_delta_dice_observed": -0.0009965656585230334,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    },
+    "candidates": [
+      {
+        "family": "A_rule_tree",
+        "parameters": {
+          "depth": 1
+        },
+        "complexity_order": 0,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 67,
+          "violation_or_unobserved_rate": 0.3941176470588235,
+          "observed_violation_rate": 0.3941176470588235,
+          "mean_saving_pct": 79.76985159455474,
+          "mean_delta_dice_observed": 0.00844860133412675,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "A_rule_tree",
+        "parameters": {
+          "depth": 2
+        },
+        "complexity_order": 1,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 66,
+          "violation_or_unobserved_rate": 0.38823529411764707,
+          "observed_violation_rate": 0.38823529411764707,
+          "mean_saving_pct": 79.39449460854513,
+          "mean_delta_dice_observed": 0.008965721936062864,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "B_logistic",
+        "parameters": {
+          "risk_threshold": 0.1
+        },
+        "complexity_order": 2,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 21,
+          "violation_or_unobserved_rate": 0.12352941176470589,
+          "observed_violation_rate": 0.12352941176470589,
+          "mean_saving_pct": 50.37783355051596,
+          "mean_delta_dice_observed": -0.0010863322890605402,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "B_logistic",
+        "parameters": {
+          "risk_threshold": 0.25
+        },
+        "complexity_order": 3,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 50,
+          "violation_or_unobserved_rate": 0.29411764705882354,
+          "observed_violation_rate": 0.29411764705882354,
+          "mean_saving_pct": 68.46480820079802,
+          "mean_delta_dice_observed": -0.005924291010149493,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "B_logistic",
+        "parameters": {
+          "risk_threshold": 0.5
+        },
+        "complexity_order": 4,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 64,
+          "violation_or_unobserved_rate": 0.3764705882352941,
+          "observed_violation_rate": 0.3764705882352941,
+          "mean_saving_pct": 77.86745962313968,
+          "mean_delta_dice_observed": 0.0010199455654071458,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "C_ridge",
+        "parameters": {
+          "alpha": 1.0
+        },
+        "complexity_order": 5,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 62,
+          "violation_or_unobserved_rate": 0.36470588235294116,
+          "observed_violation_rate": 0.36470588235294116,
+          "mean_saving_pct": 75.82746442029277,
+          "mean_delta_dice_observed": -0.008130514387322622,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "C_ridge",
+        "parameters": {
+          "alpha": 10.0
+        },
+        "complexity_order": 6,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 64,
+          "violation_or_unobserved_rate": 0.3764705882352941,
+          "observed_violation_rate": 0.3764705882352941,
+          "mean_saving_pct": 76.6545729266423,
+          "mean_delta_dice_observed": -0.007484050733376162,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      },
+      {
+        "family": "C_ridge",
+        "parameters": {
+          "alpha": 100.0
+        },
+        "complexity_order": 7,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 65,
+          "violation_or_unobserved_rate": 0.38235294117647056,
+          "observed_violation_rate": 0.38235294117647056,
+          "mean_saving_pct": 78.68277491392105,
+          "mean_delta_dice_observed": -0.004315048150537593,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        }
+      }
+    ],
+    "selected": {
+      "family": "B_logistic",
+      "parameters": {
+        "risk_threshold": 0.1
+      },
+      "complexity_order": 2,
+      "score": {
+        "cases": 170,
+        "observed_cases": 170,
+        "unobserved_or_failed_cases": 0,
+        "dice_loss_violations": 21,
+        "violation_or_unobserved_rate": 0.12352941176470589,
+        "observed_violation_rate": 0.12352941176470589,
+        "mean_saving_pct": 50.37783355051596,
+        "mean_delta_dice_observed": -0.0010863322890605402,
+        "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+      },
+      "selection_reason": "within_inner_Q85_violation_reference_then_maximum_saving"
+    },
+    "selected_by_family": {
+      "A_rule_tree": {
+        "family": "A_rule_tree",
+        "parameters": {
+          "depth": 2
+        },
+        "complexity_order": 1,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 66,
+          "violation_or_unobserved_rate": 0.38823529411764707,
+          "observed_violation_rate": 0.38823529411764707,
+          "mean_saving_pct": 79.39449460854513,
+          "mean_delta_dice_observed": 0.008965721936062864,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "selection_reason": "no_candidate_within_inner_Q85_reference_then_minimum_violation_then_saving"
+      },
+      "B_logistic": {
+        "family": "B_logistic",
+        "parameters": {
+          "risk_threshold": 0.1
+        },
+        "complexity_order": 2,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 21,
+          "violation_or_unobserved_rate": 0.12352941176470589,
+          "observed_violation_rate": 0.12352941176470589,
+          "mean_saving_pct": 50.37783355051596,
+          "mean_delta_dice_observed": -0.0010863322890605402,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "selection_reason": "within_inner_Q85_violation_reference_then_maximum_saving"
+      },
+      "C_ridge": {
+        "family": "C_ridge",
+        "parameters": {
+          "alpha": 1.0
+        },
+        "complexity_order": 5,
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 62,
+          "violation_or_unobserved_rate": 0.36470588235294116,
+          "observed_violation_rate": 0.36470588235294116,
+          "mean_saving_pct": 75.82746442029277,
+          "mean_delta_dice_observed": -0.008130514387322622,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "selection_reason": "no_candidate_within_inner_Q85_reference_then_minimum_violation_then_saving"
+      }
+    },
+    "selection_scope": "training-side inner OOF only; no outer outcomes"
+  },
+  "selected_family": "B_logistic",
+  "selected_config": {
+    "family": "B_logistic",
+    "parameters": {
+      "risk_threshold": 0.1
+    },
+    "complexity_order": 2,
+    "score": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 21,
+      "violation_or_unobserved_rate": 0.12352941176470589,
+      "observed_violation_rate": 0.12352941176470589,
+      "mean_saving_pct": 50.37783355051596,
+      "mean_delta_dice_observed": -0.0010863322890605402,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    },
+    "selection_reason": "within_inner_Q85_violation_reference_then_maximum_saving"
+  },
+  "train_best_fixed": {
+    "condition": "jpeg_q85",
+    "score": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 24,
+      "violation_or_unobserved_rate": 0.1411764705882353,
+      "observed_violation_rate": 0.1411764705882353,
+      "mean_saving_pct": 60.04939499307238,
+      "mean_delta_dice_observed": -0.0009965656585230334,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    },
+    "complexity_order": 1,
+    "selection_reason": "within_inner_Q85_violation_reference_then_maximum_saving",
+    "selection_scope": "outer_training_cases_only",
+    "candidates": [
+      {
+        "condition": "jpeg_q95",
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 6,
+          "violation_or_unobserved_rate": 0.03529411764705882,
+          "observed_violation_rate": 0.03529411764705882,
+          "mean_saving_pct": 30.306195452725404,
+          "mean_delta_dice_observed": -0.0009278668867170577,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "complexity_order": 0
+      },
+      {
+        "condition": "jpeg_q85",
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 24,
+          "violation_or_unobserved_rate": 0.1411764705882353,
+          "observed_violation_rate": 0.1411764705882353,
+          "mean_saving_pct": 60.04939499307238,
+          "mean_delta_dice_observed": -0.0009965656585230334,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "complexity_order": 1
+      },
+      {
+        "condition": "jpeg_q75",
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 35,
+          "violation_or_unobserved_rate": 0.20588235294117646,
+          "observed_violation_rate": 0.20588235294117646,
+          "mean_saving_pct": 68.80640881586395,
+          "mean_delta_dice_observed": -0.0005061024578499714,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "complexity_order": 2
+      },
+      {
+        "condition": "jpeg_q60",
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 46,
+          "violation_or_unobserved_rate": 0.27058823529411763,
+          "observed_violation_rate": 0.27058823529411763,
+          "mean_saving_pct": 74.90660905386378,
+          "mean_delta_dice_observed": 0.006582506627983041,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "complexity_order": 3
+      },
+      {
+        "condition": "jpeg_q40",
+        "score": {
+          "cases": 170,
+          "observed_cases": 170,
+          "unobserved_or_failed_cases": 0,
+          "dice_loss_violations": 67,
+          "violation_or_unobserved_rate": 0.3941176470588235,
+          "observed_violation_rate": 0.3941176470588235,
+          "mean_saving_pct": 79.85942728519585,
+          "mean_delta_dice_observed": 0.009533073335865963,
+          "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+        },
+        "complexity_order": 4
+      }
+    ],
+    "reference_Q85": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 24,
+      "violation_or_unobserved_rate": 0.1411764705882353,
+      "observed_violation_rate": 0.1411764705882353,
+      "mean_saving_pct": 60.04939499307238,
+      "mean_delta_dice_observed": -0.0009965656585230334,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    }
+  },
+  "subgroup_thresholds": {
+    "laplacian_variance": 0.006171189104695047,
+    "noise_mad": 0.01170070356766064,
+    "local_contrast": 0.05758264796285198,
+    "edge_density": 0.18682536507304207,
+    "lesion_area_fraction": 0.06390161804751258,
+    "shape_irregularity": 2.1494745569107465
+  },
+  "subgroup_scope": "outer-training medians; GT area/shape evaluation only",
+  "train_fit_descriptive": {
+    "A_rule_tree": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 67,
+      "violation_or_unobserved_rate": 0.3941176470588235,
+      "observed_violation_rate": 0.3941176470588235,
+      "mean_saving_pct": 79.85942728519585,
+      "mean_delta_dice_observed": 0.009533073335865963,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero",
+      "evidence_type": "in_sample_training_description_not_OOF"
+    },
+    "B_logistic": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 4,
+      "violation_or_unobserved_rate": 0.023529411764705882,
+      "observed_violation_rate": 0.023529411764705882,
+      "mean_saving_pct": 47.00680650222428,
+      "mean_delta_dice_observed": 0.0015260642331511715,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero",
+      "evidence_type": "in_sample_training_description_not_OOF"
+    },
+    "C_ridge": {
+      "cases": 170,
+      "observed_cases": 170,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 60,
+      "violation_or_unobserved_rate": 0.35294117647058826,
+      "observed_violation_rate": 0.35294117647058826,
+      "mean_saving_pct": 78.19524281389974,
+      "mean_delta_dice_observed": 0.011870343395666522,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero",
+      "evidence_type": "in_sample_training_description_not_OOF"
+    }
+  },
+  "outer_scores": {
+    "A_rule_tree": {
+      "cases": 43,
+      "observed_cases": 43,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 24,
+      "violation_or_unobserved_rate": 0.5581395348837209,
+      "observed_violation_rate": 0.5581395348837209,
+      "mean_saving_pct": 80.18420486239651,
+      "mean_delta_dice_observed": -0.01683463598044997,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    },
+    "B_logistic": {
+      "cases": 43,
+      "observed_cases": 43,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 4,
+      "violation_or_unobserved_rate": 0.09302325581395349,
+      "observed_violation_rate": 0.09302325581395349,
+      "mean_saving_pct": 49.04080530015606,
+      "mean_delta_dice_observed": -0.0002730249255116837,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    },
+    "C_ridge": {
+      "cases": 43,
+      "observed_cases": 43,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 22,
+      "violation_or_unobserved_rate": 0.5116279069767442,
+      "observed_violation_rate": 0.5116279069767442,
+      "mean_saving_pct": 77.84573518649162,
+      "mean_delta_dice_observed": -0.009120753493374345,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    },
+    "IACS_v2": {
+      "cases": 43,
+      "observed_cases": 43,
+      "unobserved_or_failed_cases": 0,
+      "dice_loss_violations": 4,
+      "violation_or_unobserved_rate": 0.09302325581395349,
+      "observed_violation_rate": 0.09302325581395349,
+      "mean_saving_pct": 49.04080530015606,
+      "mean_delta_dice_observed": -0.0002730249255116837,
+      "objective_missing_policy": "unobserved outcome penalized as violation; missing saving scored zero"
+    }
+  }
+}

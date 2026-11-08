@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="453.6pt" viewBox="0 0 792 453.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-08T13:05:46.709856</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 453.6 
+L 792 453.6 
+L 792 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 97.320182 118.080493 
+L 694.679818 118.080493 
+Q 702.539813 118.080493 702.539813 114.048176 
+L 702.539813 69.692683 
+Q 702.539813 65.660366 694.679818 65.660366 
+L 97.320182 65.660366 
+Q 89.460187 65.660366 89.460187 69.692683 
+L 89.460187 114.048176 
+Q 89.460187 118.080493 97.320182 118.080493 
+z
+" clip-path="url(#p6ed282789e)" style="fill: #eaf3f6; stroke: #376a8c; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 97.320182 186.62989 
+L 694.679818 186.62989 
+Q 702.539813 186.62989 702.539813 182.597573 
+L 702.539813 138.242081 
+Q 702.539813 134.209763 694.679818 134.209763 
+L 97.320182 134.209763 
+Q 89.460187 134.209763 89.460187 138.242081 
+L 89.460187 182.597573 
+Q 89.460187 186.62989 97.320182 186.62989 
+z
+" clip-path="url(#p6ed282789e)" style="fill: #eaf3f6; stroke: #376a8c; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 97.320182 255.179287 
+L 694.679818 255.179287 
+Q 702.539813 255.179287 702.539813 251.14697 
+L 702.539813 206.791478 
+Q 702.539813 202.75916 694.679818 202.75916 
+L 97.320182 202.75916 
+Q 89.460187 202.75916 89.460187 206.791478 
+L 89.460187 251.14697 
+Q 89.460187 255.179287 97.320182 255.179287 
+z
+" clip-path="url(#p6ed282789e)" style="fill: #eaf3f6; stroke: #376a8c; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 97.320182 323.728684 
+L 694.679818 323.728684 
+Q 702.539813 323.728684 702.539813 319.696367 
+L 702.539813 275.340875 
+Q 702.539813 271.308557 694.679818 271.308557 
+L 97.320182 271.308557 
+Q 89.460187 271.308557 89.460187 275.340875 
+L 89.460187 319.696367 
+Q 89.460187 323.728684 97.320182 323.728684 
+z
+" clip-path="url(#p6ed282789e)" style="fill: #eaf3f6; stroke: #376a8c; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 97.320182 392.278081 
+L 694.679818 392.278081 
+Q 702.539813 392.278081 702.539813 388.245764 
+L 702.539813 343.890272 
+Q 702.539813 339.857954 694.679818 339.857954 
+L 97.320182 339.857954 
+Q 89.460187 339.857954 89.460187 343.890272 
+L 89.460187 388.245764 
+Q 89.460187 392.278081 97.320182 392.278081 
+z
+" clip-path="url(#p6ed282789e)" style="fill: #eaf3f6; stroke: #376a8c; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(344.215547 88.913648)">冻结 BUS-BRA 开发 Case</text>
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(349.498828 99.784242)">原图特征 + 七条件实测</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 396 121.695698 
+Q 396 128.362439 396 133.911146 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+    <path d="M 397.8 130.311146 
+L 396 133.911146 
+L 394.2 130.311146 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(347.202422 157.463045)">外层 Case 分组交叉验证</text>
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(351 168.333639)">内层选择仅使用训练折</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 396 190.245095 
+Q 396 196.911836 396 202.460543 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+    <path d="M 397.8 198.860543 
+L 396 202.460543 
+L 394.2 198.860543 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(335.630391 226.012442)">逐候选预测 Dice / HD95 变化</text>
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(355.482422 236.883036)">HD95 容忍界值未设</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 396 258.794492 
+Q 396 265.461233 396 271.00994 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+    <path d="M 397.8 267.40994 
+L 396 271.00994 
+L 394.2 267.40994 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(352.402031 294.56184)">选择探索性 Dice 候选</text>
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(342 305.432433)">无候选保守回退并记录原因</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 396 327.343889 
+Q 396 334.01063 396 339.559338 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+    <path d="M 397.8 335.959338 
+L 396 339.559338 
+L 394.2 335.959338 
+" style="fill: none; stroke: #376a8c; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(347.202422 363.111237)">外层留出 Case 实测评价</text>
+    <text style="font: 9px 'Microsoft YaHei'" transform="translate(338.997656 373.98183)">失败分母 + 不确定性 + 限制</text>
+   </g>
+  </g>
+  <g id="text_6">
+   <text style="font: 13px 'Microsoft YaHei'; text-anchor: middle" x="396" y="14.013677" transform="rotate(-0 396 14.013677)">Figure 1 · 研究流程（方法图，非实验结果）</text>
+  </g>
+  <g id="text_7">
+   <text style="font: 8px 'Microsoft YaHei'" transform="translate(308 438.94826)">方法流程图；不表示各步骤已获得有效研究结论。</text>
+   <text style="font: 8px 'Microsoft YaHei'" transform="translate(316.4275 448.61101)">探索性 / Case-level；HD95 容忍界值未设。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6ed282789e">
+   <rect x="3.00024" y="23.321033" width="785.99952" height="403.231747"/>
+  </clipPath>
+ </defs>
+</svg>

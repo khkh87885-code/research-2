@@ -1,0 +1,10 @@
+{
+  "name": "SAM-v1",
+  "type": "vit_b",
+  "commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+  "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "torch": "2.4.1+cu118",
+  "device": "cuda",
+  "multimask_output": false,
+  "postprocessing": "none"
+}

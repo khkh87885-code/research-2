@@ -1,0 +1,178 @@
+[
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\__init__.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\__main__.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\adaptive.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\cli.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\dashboard.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\datasets.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\engine.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\export.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\features.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\imaging.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\metrics.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\model.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\compression_study\\statistics.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\configs\\development.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\configs\\local.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\configs\\smoke_v2.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\configs\\smoke.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\tests\\test_adaptive_statistics.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\tests\\test_engine_datasets.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\tests\\test_export.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\tests\\test_final_safety.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\tests\\test_imaging_metrics.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\.gitignore",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\analyze_formal_validation.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\analyze_validation_supplementary.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\DELIVERY_README.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\dependency_wheel_manifest.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\environment_audit.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\environment_release.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\EXPERIMENT_PROTOCOL.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\formal_experiment_protocol.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\formal_validation_statistics.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\formal_validation_threshold_lock.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\IMPLEMENTATION_PLAN.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\PROJECT_AUDIT.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\requirements-compression.txt",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\run_development_pilot.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\run_formal_validation.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\run_full_development.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\run_single_case.py",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\SCI_RESULTS_REPORT.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\supplementary_validation_statistics.json",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\TEST_REPORT.md",
+    "unchanged": true
+  },
+  {
+    "path": "D:\\Codex工作区\\busbra_sam_pilot\\USER_MANUAL.md",
+    "unchanged": true
+  }
+]

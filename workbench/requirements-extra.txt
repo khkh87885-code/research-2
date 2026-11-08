@@ -1,0 +1,5 @@
+# Python 3.8.20; inherits audited torch 2.4.1+cu118/torchvision 0.19.1+cu118 environment.
+scipy==1.10.1
+pandas==2.0.3
+statsmodels==0.14.1
+openpyxl==3.1.5

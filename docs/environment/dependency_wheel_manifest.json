@@ -1,0 +1,107 @@
+[
+  {
+    "file": "colorama-0.4.6-py2.py3-none-any.whl",
+    "bytes": 25335,
+    "sha256": "4F1D9991F5ACC0CA119F9D443620B77F9D6B33703E51011C16BAF57AFB285FC6"
+  },
+  {
+    "file": "et_xmlfile-2.0.0-py3-none-any.whl",
+    "bytes": 18059,
+    "sha256": "7A91720BC756843502C3B7504C77B8FE44217C85C537D85037F0F536151B2CAA"
+  },
+  {
+    "file": "exceptiongroup-1.2.2-py3-none-any.whl",
+    "bytes": 16453,
+    "sha256": "3111B9D131C238BEC2F8F516E123E14BA243563FB135D3FE885990585AA7795B"
+  },
+  {
+    "file": "iniconfig-2.1.0-py3-none-any.whl",
+    "bytes": 6050,
+    "sha256": "9DEBA5723312380E77435581C6BF4935C94CBFAB9B1ED33EF8D238EA168EB760"
+  },
+  {
+    "file": "joblib-1.4.2-py3-none-any.whl",
+    "bytes": 301817,
+    "sha256": "06D478D5674CBC267E7496A410EE875ABD68E4340FEFF4490BCB7AFB88060AE6"
+  },
+  {
+    "file": "numpy-1.24.4-cp38-cp38-win_amd64.whl",
+    "bytes": 14868112,
+    "sha256": "692F2E0F55794943C5BFFF12B3F56F99AF76F902FC47487BDFE97856DE51A706"
+  },
+  {
+    "file": "openpyxl-3.1.5-py2.py3-none-any.whl",
+    "bytes": 250910,
+    "sha256": "5282C12B107BFFEEF825F4617DC029AFAF41D0EA60823BBB665EF3079DC79DE2"
+  },
+  {
+    "file": "packaging-26.2-py3-none-any.whl",
+    "bytes": 100195,
+    "sha256": "5FC45236B9446107FF2415CE77C807CEE2862CB6FAC22B8A73826D0693B0980E"
+  },
+  {
+    "file": "pandas-2.0.3-cp38-cp38-win_amd64.whl",
+    "bytes": 10777638,
+    "sha256": "69D7F3884C95DA3A31EF82B7618AF5710DBA95BB885FFAB339AAD925C3E8CE78"
+  },
+  {
+    "file": "patsy-1.0.3-py2.py3-none-any.whl",
+    "bytes": 233318,
+    "sha256": "D3DBEBE8FD5F46E29912D030B63C6268647B59BF788A99E2AF28A30234CF357C"
+  },
+  {
+    "file": "pluggy-1.5.0-py3-none-any.whl",
+    "bytes": 20556,
+    "sha256": "44E1AD92C8CA002DE6377E165F3E0F1BE63266AB4D554740532335B9D75EA669"
+  },
+  {
+    "file": "pytest-8.3.5-py3-none-any.whl",
+    "bytes": 343634,
+    "sha256": "C69214AA47DEAC29FAD6C2A4F590B9C4A9FDB16A403176FE154B79C0B4D4D820"
+  },
+  {
+    "file": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+    "bytes": 94659,
+    "sha256": "3C79630202E4152C6ADD678446984236EFE4F57E84D8E892AAB0637BAB82E9FD"
+  },
+  {
+    "file": "pytz-2026.6-py2.py3-none-any.whl",
+    "bytes": 506321,
+    "sha256": "7FED3FEE8FD6BD4A2B7B75A8D56021D0624127BF69BD5691F115DB929AC570B3"
+  },
+  {
+    "file": "scikit_learn-1.3.2-cp38-cp38-win_amd64.whl",
+    "bytes": 9257871,
+    "sha256": "64381066F8AA63C2710E6B56EDC9F0894CC7BF59BD71B8CE5613A4559B6145E0"
+  },
+  {
+    "file": "scipy-1.10.1-cp38-cp38-win_amd64.whl",
+    "bytes": 42215036,
+    "sha256": "049A8BBF0AD95277FFBA9B3B7D23E5369CC39E66406D60422C8CFEF40CCC8415"
+  },
+  {
+    "file": "six-1.17.0-py2.py3-none-any.whl",
+    "bytes": 11050,
+    "sha256": "4721F391ED90541FDDACAB5ACF947AA0D3DC7D27B2E1E8EDA2BE8970586C3274"
+  },
+  {
+    "file": "statsmodels-0.14.1-cp38-cp38-win_amd64.whl",
+    "bytes": 10025062,
+    "sha256": "4FE0A60695952B82139AE8750952786A700292F9E0551D572D7685070944487B"
+  },
+  {
+    "file": "threadpoolctl-3.5.0-py3-none-any.whl",
+    "bytes": 18414,
+    "sha256": "56C1E26C150397E58C4926DA8EEEE87533B1E32BEF131BD4BF6A2F45F3185467"
+  },
+  {
+    "file": "tomli-2.0.1-py3-none-any.whl",
+    "bytes": 12757,
+    "sha256": "939DE3E7A6161AF0C887EF91B7D41A53E7C5A1CA976325F429CB46EA9BC30ECC"
+  },
+  {
+    "file": "tzdata-2026.6-py2.py3-none-any.whl",
+    "bytes": 348210,
+    "sha256": "0A10EEC6E13EF16B627FABED9A5F2BA61A62B1C67F327305F4E7E412A70B4AEC"
+  }
+]

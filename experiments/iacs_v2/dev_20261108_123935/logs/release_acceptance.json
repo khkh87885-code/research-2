@@ -1,0 +1,17 @@
+{
+  "old_smoke_rows_verified": {
+    "smoke_20261108_v1": 102,
+    "smoke_20261108_v2": 102
+  },
+  "original_source_files_unchanged": 44,
+  "original_test_count": 41,
+  "all_tests_passed": 113,
+  "source_images_and_masks_unchanged": true,
+  "model_weights_unchanged": true,
+  "BrEaST_used": false,
+  "original_holdout_used": false,
+  "analysis_unit": "Case",
+  "dice_candidate": 0.02,
+  "hd95_margin": null,
+  "clinical_noninferiority": null
+}

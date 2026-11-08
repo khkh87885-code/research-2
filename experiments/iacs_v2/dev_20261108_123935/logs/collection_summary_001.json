@@ -1,0 +1,21 @@
+{
+  "completed_at": "2026-11-08T05:05:17.449238+00:00",
+  "scheduled_cases": 213,
+  "scheduled_images": 213,
+  "scheduled_tasks": 1491,
+  "records": 1491,
+  "statuses": {
+    "ok": 1491
+  },
+  "origins": {
+    "new_inference": 1260,
+    "lossless_pixel_identity_reuse": 210,
+    "reused_verified_smoke_v2": 21
+  },
+  "source_hashes_unchanged": true,
+  "weight_hash_unchanged": true,
+  "collection_lock_sha256": "3fbc0c6cf34e239d4941974cb26f3a6d886ddd6314ecd4ab3cb050abebc3a3f5",
+  "analysis_unit": "Case",
+  "distance_unit": "pixel",
+  "holdout_or_external_used": false
+}

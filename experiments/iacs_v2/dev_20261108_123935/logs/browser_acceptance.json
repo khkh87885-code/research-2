@@ -1,0 +1,12 @@
+{
+  "page": "http://127.0.0.1:8766/iacs-v2",
+  "initial_records": 1491,
+  "Q85_filter_records": 213,
+  "IACS_filter_records": 213,
+  "IACS_fallbacks": 5,
+  "fold_table_rows": 5,
+  "figures_loaded": 8,
+  "interface_json_downloaded": true,
+  "read_only_viewer": true,
+  "original_service_8765_not_restarted": true
+}

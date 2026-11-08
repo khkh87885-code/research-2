@@ -1,0 +1,39 @@
+{
+  "project_root": "D:\\Codex工作区\\busbra_sam_pilot",
+  "run_root": "D:\\Codex工作区\\busbra_sam_pilot\\research_output\\IACS_v2\\dev_20261108_123935",
+  "datasets": [
+    {
+      "dataset": "BUS-BRA",
+      "split": "development",
+      "root": "D:/codex论文",
+      "manifest": "D:/codex论文/busbra_splits/busbra_development.csv",
+      "sha256": "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+    }
+  ],
+  "model": {
+    "source": "D:/Codex工作区/segment-anything",
+    "checkpoint": "D:/codex论文/models/sam_vit_b_01ec64.pth",
+    "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+    "commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+    "type": "vit_b",
+    "device": "cuda"
+  },
+  "reuse_runs": [
+    "D:\\Codex工作区\\busbra_sam_pilot\\research_output\\smoke_20261108_v2"
+  ],
+  "seed": 20261108,
+  "device": "cuda",
+  "max_attempts": 2,
+  "prompt_strategy": "mechanism_gt_box",
+  "analysis_unit": "Case",
+  "patient_semantics_verified": false,
+  "validation": {
+    "bootstrap": 2000,
+    "hd95_margin": null,
+    "seed": 20261108,
+    "inner_folds": 3,
+    "exploratory": true,
+    "dice_margin": 0.02,
+    "outer_folds": 5
+  }
+}

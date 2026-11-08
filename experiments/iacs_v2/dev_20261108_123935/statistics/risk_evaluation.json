@@ -1,0 +1,1922 @@
+[
+  {
+    "algorithm": "A_rule_tree",
+    "condition": "jpeg_q95",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.03755868544600939,
+    "all_observed_case_prevalence": 0.03755868544600939,
+    "unsafe_cases": 8,
+    "roc_auc": 0.5853658536585366,
+    "average_precision": 0.07691679303521409,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.035930015398541605,
+    "training_prevalence_brier": 0.03634012061602156,
+    "paired_model_brier": 0.035930015398541605,
+    "brier_difference": -0.00041010521747994884,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.014439128086440463,
+      0.05985676090279477
+    ],
+    "training_prevalence_brier_ci95": [
+      0.014516149685815978,
+      0.06249576726372796
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.004020529079395702,
+      0.0024036714100300356
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.38386876006441223,
+      0.825856409815388
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "A_rule_tree": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.04678362573099415
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03508771929824561
+      }
+    ],
+    "probability_role": "training-leaf empirical event frequency",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "A_rule_tree",
+    "condition": "jpeg_q85",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.15023474178403756,
+    "all_observed_case_prevalence": 0.15023474178403756,
+    "unsafe_cases": 32,
+    "roc_auc": 0.4754834254143646,
+    "average_precision": 0.15399495399545038,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.13130322389565807,
+    "training_prevalence_brier": 0.12838356491993008,
+    "paired_model_brier": 0.13130322389565807,
+    "brier_difference": 0.002919658975727995,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.09862442358890805,
+      0.1669076558801308
+    ],
+    "training_prevalence_brier_ci95": [
+      0.09527543268661927,
+      0.16426325471203618
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0010770148804461355,
+      0.007699954785287127
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.358373002152883,
+      0.5989681759617105
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "A_rule_tree": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.1411764705882353
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15294117647058825
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.16470588235294117
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15204678362573099
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.14035087719298245
+      }
+    ],
+    "probability_role": "training-leaf empirical event frequency",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "A_rule_tree",
+    "condition": "jpeg_q75",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.215962441314554,
+    "all_observed_case_prevalence": 0.215962441314554,
+    "unsafe_cases": 46,
+    "roc_auc": 0.420919031502213,
+    "average_precision": 0.19080321532598493,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.17537831229453166,
+    "training_prevalence_brier": 0.17078223662858302,
+    "paired_model_brier": 0.17537831229453166,
+    "brier_difference": 0.00459607566594863,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.14425738907277924,
+      0.20985456569337188
+    ],
+    "training_prevalence_brier_ci95": [
+      0.13943751120705242,
+      0.2044560763307365
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0007263696321324938,
+      0.009891329130619934
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.33166346647143075,
+      0.5189135526703584
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "A_rule_tree": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.20588235294117646
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.21764705882352942
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.23529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.19883040935672514
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.2222222222222222
+      }
+    ],
+    "probability_role": "training-leaf empirical event frequency",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "A_rule_tree",
+    "condition": "jpeg_q60",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.28169014084507044,
+    "all_observed_case_prevalence": 0.28169014084507044,
+    "unsafe_cases": 60,
+    "roc_auc": 0.4402505446623094,
+    "average_precision": 0.251633917331565,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.20962009736133802,
+    "training_prevalence_brier": 0.20474304701247892,
+    "paired_model_brier": 0.20962009736133802,
+    "brier_difference": 0.00487705034885914,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.18314378791772337,
+      0.23654821514317229
+    ],
+    "training_prevalence_brier_ci95": [
+      0.1781095166908305,
+      0.23093284131417358
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0022954521414953718,
+      0.012280084034403695
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.3581061061460478,
+      0.5181598728275943
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "A_rule_tree": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.31176470588235294
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.26900584795321636
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.28654970760233917
+      }
+    ],
+    "probability_role": "training-leaf empirical event frequency",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "A_rule_tree",
+    "condition": "jpeg_q40",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.4272300469483568,
+    "all_observed_case_prevalence": 0.4272300469483568,
+    "unsafe_cases": 91,
+    "roc_auc": 0.4945505314357774,
+    "average_precision": 0.4296986187940698,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.248488205663984,
+    "training_prevalence_brier": 0.24799463087824614,
+    "paired_model_brier": 0.248488205663984,
+    "brier_difference": 0.0004935747857378428,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.2356950433932842,
+      0.2623597286026227
+    ],
+    "training_prevalence_brier_ci95": [
+      0.23747487119286656,
+      0.2582561004866722
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.008725524958490789,
+      0.010723994438193149
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.41014479405902626,
+      0.5757790645859204
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "A_rule_tree": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.3941176470588235
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4294117647058823
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4470588235294118
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4444444444444444
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.42105263157894735
+      }
+    ],
+    "probability_role": "training-leaf empirical event frequency",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "B_logistic",
+    "condition": "jpeg_q95",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.03755868544600939,
+    "all_observed_case_prevalence": 0.03755868544600939,
+    "unsafe_cases": 8,
+    "roc_auc": 0.49390243902439024,
+    "average_precision": 0.05435739922898611,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.03767907432295062,
+    "training_prevalence_brier": 0.03634012061602156,
+    "paired_model_brier": 0.03767907432295062,
+    "brier_difference": 0.0013389537069290586,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.015909870780185652,
+      0.0627118582670205
+    ],
+    "training_prevalence_brier_ci95": [
+      0.014516149685815978,
+      0.06249576726372796
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0013847251744696174,
+      0.003435117642847113
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.2629712301587302,
+      0.7530368839132252
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.04678362573099415
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03508771929824561
+      }
+    ],
+    "probability_role": "primary LogisticRegression Dice-loss risk probability",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "B_logistic",
+    "condition": "jpeg_q85",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.15023474178403756,
+    "all_observed_case_prevalence": 0.15023474178403756,
+    "unsafe_cases": 32,
+    "roc_auc": 0.619475138121547,
+    "average_precision": 0.20548536702846137,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.1358791288575945,
+    "training_prevalence_brier": 0.12838356491993008,
+    "paired_model_brier": 0.1358791288575945,
+    "brier_difference": 0.007495563937664431,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.10393445908796185,
+      0.17069603391236726
+    ],
+    "training_prevalence_brier_ci95": [
+      0.09527543268661927,
+      0.16426325471203618
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.006236195033605595,
+      0.022422929655246757
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.5155881898601272,
+      0.7206405656248052
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.1411764705882353
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15294117647058825
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.16470588235294117
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15204678362573099
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.14035087719298245
+      }
+    ],
+    "probability_role": "primary LogisticRegression Dice-loss risk probability",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "B_logistic",
+    "condition": "jpeg_q75",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.215962441314554,
+    "all_observed_case_prevalence": 0.215962441314554,
+    "unsafe_cases": 46,
+    "roc_auc": 0.5002603488674824,
+    "average_precision": 0.21079264864146524,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.18947588490068548,
+    "training_prevalence_brier": 0.17078223662858302,
+    "paired_model_brier": 0.18947588490068548,
+    "brier_difference": 0.018693648272102462,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.1569565945767401,
+      0.226861699132811
+    ],
+    "training_prevalence_brier_ci95": [
+      0.13943751120705242,
+      0.2044560763307365
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      0.004073666318718435,
+      0.033449245066248016
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.4168458668776273,
+      0.5889528762198253
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.20588235294117646
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.21764705882352942
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.23529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.19883040935672514
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.2222222222222222
+      }
+    ],
+    "probability_role": "primary LogisticRegression Dice-loss risk probability",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "B_logistic",
+    "condition": "jpeg_q60",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.28169014084507044,
+    "all_observed_case_prevalence": 0.28169014084507044,
+    "unsafe_cases": 60,
+    "roc_auc": 0.475925925925926,
+    "average_precision": 0.2667284831762102,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.22796389995619967,
+    "training_prevalence_brier": 0.20474304701247892,
+    "paired_model_brier": 0.22796389995619967,
+    "brier_difference": 0.023220852943720737,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.19746933161902613,
+      0.26047965041296245
+    ],
+    "training_prevalence_brier_ci95": [
+      0.1781095166908305,
+      0.23093284131417358
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      0.00682311419658972,
+      0.042057366726244924
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.39297668792091905,
+      0.5654311738671708
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.31176470588235294
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.26900584795321636
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.28654970760233917
+      }
+    ],
+    "probability_role": "primary LogisticRegression Dice-loss risk probability",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "B_logistic",
+    "condition": "jpeg_q40",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.4272300469483568,
+    "all_observed_case_prevalence": 0.4272300469483568,
+    "unsafe_cases": 91,
+    "roc_auc": 0.4967573410196361,
+    "average_precision": 0.4131813313890548,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.26327418173419165,
+    "training_prevalence_brier": 0.24799463087824614,
+    "paired_model_brier": 0.26327418173419165,
+    "brier_difference": 0.01527955085594553,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.24280636162975916,
+      0.2828527124360667
+    ],
+    "training_prevalence_brier_ci95": [
+      0.23747487119286656,
+      0.2582561004866722
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0015024886898870255,
+      0.031744532907228576
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.4192328354437991,
+      0.5728154523320244
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.3941176470588235
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4294117647058823
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4470588235294118
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4444444444444444
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.42105263157894735
+      }
+    ],
+    "probability_role": "primary LogisticRegression Dice-loss risk probability",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "C_ridge",
+    "condition": "jpeg_q95",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 0,
+    "missing_cases": 213,
+    "missing_or_invalid_probability_cases": 213,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 0,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": null,
+    "all_observed_case_prevalence": 0.03755868544600939,
+    "unsafe_cases": 0,
+    "roc_auc": null,
+    "average_precision": null,
+    "roc_auc_status": "unavailable_single_class_or_missing_probability",
+    "brier_score": null,
+    "training_prevalence_brier": null,
+    "paired_model_brier": null,
+    "brier_difference": null,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": null,
+    "training_prevalence_brier_ci95": null,
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": null,
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": null,
+    "auc_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "unavailable_no_valid_OOF_risk_probability",
+    "underlying_family_image_records": {
+      "C_ridge": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.04678362573099415
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03508771929824561
+      }
+    ],
+    "probability_role": "no risk-probability model is defined for continuous Ridge",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "C_ridge",
+    "condition": "jpeg_q85",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 0,
+    "missing_cases": 213,
+    "missing_or_invalid_probability_cases": 213,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 0,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": null,
+    "all_observed_case_prevalence": 0.15023474178403756,
+    "unsafe_cases": 0,
+    "roc_auc": null,
+    "average_precision": null,
+    "roc_auc_status": "unavailable_single_class_or_missing_probability",
+    "brier_score": null,
+    "training_prevalence_brier": null,
+    "paired_model_brier": null,
+    "brier_difference": null,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": null,
+    "training_prevalence_brier_ci95": null,
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": null,
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": null,
+    "auc_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "unavailable_no_valid_OOF_risk_probability",
+    "underlying_family_image_records": {
+      "C_ridge": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.1411764705882353
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15294117647058825
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.16470588235294117
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15204678362573099
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.14035087719298245
+      }
+    ],
+    "probability_role": "no risk-probability model is defined for continuous Ridge",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "C_ridge",
+    "condition": "jpeg_q75",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 0,
+    "missing_cases": 213,
+    "missing_or_invalid_probability_cases": 213,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 0,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": null,
+    "all_observed_case_prevalence": 0.215962441314554,
+    "unsafe_cases": 0,
+    "roc_auc": null,
+    "average_precision": null,
+    "roc_auc_status": "unavailable_single_class_or_missing_probability",
+    "brier_score": null,
+    "training_prevalence_brier": null,
+    "paired_model_brier": null,
+    "brier_difference": null,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": null,
+    "training_prevalence_brier_ci95": null,
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": null,
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": null,
+    "auc_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "unavailable_no_valid_OOF_risk_probability",
+    "underlying_family_image_records": {
+      "C_ridge": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.20588235294117646
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.21764705882352942
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.23529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.19883040935672514
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.2222222222222222
+      }
+    ],
+    "probability_role": "no risk-probability model is defined for continuous Ridge",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "C_ridge",
+    "condition": "jpeg_q60",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 0,
+    "missing_cases": 213,
+    "missing_or_invalid_probability_cases": 213,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 0,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": null,
+    "all_observed_case_prevalence": 0.28169014084507044,
+    "unsafe_cases": 0,
+    "roc_auc": null,
+    "average_precision": null,
+    "roc_auc_status": "unavailable_single_class_or_missing_probability",
+    "brier_score": null,
+    "training_prevalence_brier": null,
+    "paired_model_brier": null,
+    "brier_difference": null,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": null,
+    "training_prevalence_brier_ci95": null,
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": null,
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": null,
+    "auc_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "unavailable_no_valid_OOF_risk_probability",
+    "underlying_family_image_records": {
+      "C_ridge": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.31176470588235294
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.26900584795321636
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.28654970760233917
+      }
+    ],
+    "probability_role": "no risk-probability model is defined for continuous Ridge",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "C_ridge",
+    "condition": "jpeg_q40",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 0,
+    "missing_cases": 213,
+    "missing_or_invalid_probability_cases": 213,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 0,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": null,
+    "all_observed_case_prevalence": 0.4272300469483568,
+    "unsafe_cases": 0,
+    "roc_auc": null,
+    "average_precision": null,
+    "roc_auc_status": "unavailable_single_class_or_missing_probability",
+    "brier_score": null,
+    "training_prevalence_brier": null,
+    "paired_model_brier": null,
+    "brier_difference": null,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": null,
+    "training_prevalence_brier_ci95": null,
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": null,
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": null,
+    "auc_bootstrap_valid_repetitions": 0,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "unavailable_no_valid_OOF_risk_probability",
+    "underlying_family_image_records": {
+      "C_ridge": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.3941176470588235
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4294117647058823
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4470588235294118
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4444444444444444
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.42105263157894735
+      }
+    ],
+    "probability_role": "no risk-probability model is defined for continuous Ridge",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "IACS_v2",
+    "condition": "jpeg_q95",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.03755868544600939,
+    "all_observed_case_prevalence": 0.03755868544600939,
+    "unsafe_cases": 8,
+    "roc_auc": 0.49390243902439024,
+    "average_precision": 0.05435739922898611,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.03767907432295062,
+    "training_prevalence_brier": 0.03634012061602156,
+    "paired_model_brier": 0.03767907432295062,
+    "brier_difference": 0.0013389537069290586,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.015909870780185652,
+      0.0627118582670205
+    ],
+    "training_prevalence_brier_ci95": [
+      0.014516149685815978,
+      0.06249576726372796
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0013847251744696174,
+      0.003435117642847113
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.2629712301587302,
+      0.7530368839132252
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.04678362573099415
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.03508771929824561
+      }
+    ],
+    "probability_role": "inner-selected family risk probability; coverage may vary across outer folds",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "IACS_v2",
+    "condition": "jpeg_q85",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.15023474178403756,
+    "all_observed_case_prevalence": 0.15023474178403756,
+    "unsafe_cases": 32,
+    "roc_auc": 0.619475138121547,
+    "average_precision": 0.20548536702846137,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.1358791288575945,
+    "training_prevalence_brier": 0.12838356491993008,
+    "paired_model_brier": 0.1358791288575945,
+    "brier_difference": 0.007495563937664431,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.10393445908796185,
+      0.17069603391236726
+    ],
+    "training_prevalence_brier_ci95": [
+      0.09527543268661927,
+      0.16426325471203618
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.006236195033605595,
+      0.022422929655246757
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.5155881898601272,
+      0.7206405656248052
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.1411764705882353
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15294117647058825
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.16470588235294117
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.15204678362573099
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.14035087719298245
+      }
+    ],
+    "probability_role": "inner-selected family risk probability; coverage may vary across outer folds",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "IACS_v2",
+    "condition": "jpeg_q75",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.215962441314554,
+    "all_observed_case_prevalence": 0.215962441314554,
+    "unsafe_cases": 46,
+    "roc_auc": 0.5002603488674824,
+    "average_precision": 0.21079264864146524,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.18947588490068548,
+    "training_prevalence_brier": 0.17078223662858302,
+    "paired_model_brier": 0.18947588490068548,
+    "brier_difference": 0.018693648272102462,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.1569565945767401,
+      0.226861699132811
+    ],
+    "training_prevalence_brier_ci95": [
+      0.13943751120705242,
+      0.2044560763307365
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      0.004073666318718435,
+      0.033449245066248016
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.4168458668776273,
+      0.5889528762198253
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.20588235294117646
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.21764705882352942
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.23529411764705882
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.19883040935672514
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.2222222222222222
+      }
+    ],
+    "probability_role": "inner-selected family risk probability; coverage may vary across outer folds",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "IACS_v2",
+    "condition": "jpeg_q60",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.28169014084507044,
+    "all_observed_case_prevalence": 0.28169014084507044,
+    "unsafe_cases": 60,
+    "roc_auc": 0.475925925925926,
+    "average_precision": 0.2667284831762102,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.22796389995619967,
+    "training_prevalence_brier": 0.20474304701247892,
+    "paired_model_brier": 0.22796389995619967,
+    "brier_difference": 0.023220852943720737,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.19746933161902613,
+      0.26047965041296245
+    ],
+    "training_prevalence_brier_ci95": [
+      0.1781095166908305,
+      0.23093284131417358
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      0.00682311419658972,
+      0.042057366726244924
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.39297668792091905,
+      0.5654311738671708
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.27058823529411763
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.31176470588235294
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.26900584795321636
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.28654970760233917
+      }
+    ],
+    "probability_role": "inner-selected family risk probability; coverage may vary across outer folds",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  },
+  {
+    "algorithm": "IACS_v2",
+    "condition": "jpeg_q40",
+    "event": "Case mean delta_dice < -0.02",
+    "analysis_unit": "Case",
+    "scheduled_cases": 213,
+    "valid_cases": 213,
+    "missing_cases": 0,
+    "missing_or_invalid_probability_cases": 0,
+    "invalid_probability_cases": 0,
+    "missing_outcome_cases": 0,
+    "comparison_valid_cases": 213,
+    "missing_training_prevalence_cases": 0,
+    "observed_outcome_cases": 213,
+    "prevalence": 0.4272300469483568,
+    "all_observed_case_prevalence": 0.4272300469483568,
+    "unsafe_cases": 91,
+    "roc_auc": 0.4967573410196361,
+    "average_precision": 0.4131813313890548,
+    "roc_auc_status": "estimated",
+    "brier_score": 0.26327418173419165,
+    "training_prevalence_brier": 0.24799463087824614,
+    "paired_model_brier": 0.26327418173419165,
+    "brier_difference": 0.01527955085594553,
+    "brier_difference_direction": "model_minus_outer_training_prevalence; negative favors model",
+    "brier_ci95": [
+      0.24280636162975916,
+      0.2828527124360667
+    ],
+    "training_prevalence_brier_ci95": [
+      0.23747487119286656,
+      0.2582561004866722
+    ],
+    "brier_ci95_scope": "comparison_valid_cases; corresponds to paired_model_brier",
+    "brier_difference_ci95": [
+      -0.0015024886898870255,
+      0.031744532907228576
+    ],
+    "brier_bootstrap_repetitions": 2000,
+    "brier_bootstrap_valid_repetitions": 2000,
+    "auc_bootstrap_repetitions": 500,
+    "roc_auc_ci95": [
+      0.4192328354437991,
+      0.5728154523320244
+    ],
+    "auc_bootstrap_valid_repetitions": 500,
+    "auc_bootstrap_single_class_repetitions": 0,
+    "status": "evaluated",
+    "underlying_family_image_records": {
+      "B_logistic": 213
+    },
+    "training_prevalence_by_fold": [
+      {
+        "fold": 0,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.3941176470588235
+      },
+      {
+        "fold": 1,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4294117647058823
+      },
+      {
+        "fold": 2,
+        "scheduled_training_cases": 170,
+        "valid_training_cases": 170,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4470588235294118
+      },
+      {
+        "fold": 3,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.4444444444444444
+      },
+      {
+        "fold": 4,
+        "scheduled_training_cases": 171,
+        "valid_training_cases": 171,
+        "missing_training_outcomes": 0,
+        "training_case_prevalence": 0.42105263157894735
+      }
+    ],
+    "probability_role": "inner-selected family risk probability; coverage may vary across outer folds",
+    "continuous_delta_prediction_role": "For B_logistic and B-selected IACS folds, continuous delta_dice is auxiliary Ridge, distinct from logistic risk discrimination.",
+    "tuning_performed": false,
+    "model_selection_use": "none; posthoc description only",
+    "evidence_type": "outer_case_OOF_risk_description",
+    "seed": 20261108,
+    "bootstrap_conditioning": "Case resampling of fixed OOF predictions; no refitting, model-selection or fold-training-dependence uncertainty",
+    "multi_image_policy": "complete images required; mean probability and event(mean delta_dice) within Case",
+    "maximum_images_per_case": 1,
+    "clinical_acceptability": "not_established; 0.02 is exploratory"
+  }
+]

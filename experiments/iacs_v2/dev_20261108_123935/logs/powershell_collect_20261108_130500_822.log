@@ -1,0 +1,25 @@
+**********************
+PowerShell transcript start
+Start time: 20261108130500
+Username: WIN-M22PEG4B0TN\Administrator
+RunAs User: WIN-M22PEG4B0TN\Administrator
+Configuration Name: 
+Machine: WIN-M22PEG4B0TN (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\dependencies\native\powershell\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+& '.\.venv-compression\Scripts\python.exe' -E -c "from iacs_v2.preflight import validate_config; from iacs_v2.common import read_json; c=validate_config(read_json('configs/iacs_v2_development.json')); print(c)"; & '.\scripts\Invoke-IACS-v2.ps1' -Step collect -Resume 2>&1 | Tee-Object -FilePath 'research_output\IACS_v2\dev_20261108_123935\logs\final_collection_resume.log'; exit $LASTEXITCODE
+Process ID: 42960
+PSVersion: 7.6.9
+PSEdition: Core
+GitCommitId: 7.6.9
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+{"completed_at": "2026-11-08T05:05:17.449238+00:00", "scheduled_cases": 213, "scheduled_images": 213, "scheduled_tasks": 1491, "records": 1491, "statuses": {"ok": 1491}, "origins": {"new_inference": 1260, "lossless_pixel_identity_reuse": 210, "reused_verified_smoke_v2": 21}, "source_hashes_unchanged": true, "weight_hash_unchanged": true, "collection_lock_sha256": "3fbc0c6cf34e239d4941974cb26f3a6d886ddd6314ecd4ab3cb050abebc3a3f5", "analysis_unit": "Case", "distance_unit": "pixel", "holdout_or_external_used": false}
+**********************
+PowerShell transcript end
+End time: 20261108130517
+**********************

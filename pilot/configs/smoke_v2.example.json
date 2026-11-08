@@ -1,0 +1,143 @@
+{
+  "seed": 20261108,
+  "model": {
+    "source": "C:/Research/segment-anything",
+    "checkpoint": "C:/Research/private_data/models/sam_vit_b_01ec64.pth",
+    "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+    "commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+    "type": "vit_b",
+    "device": "cuda"
+  },
+  "datasets": [
+    {
+      "dataset": "BUS-BRA",
+      "split": "development",
+      "root": "C:/Research/private_data",
+      "manifest": "C:/Research/private_data/busbra_splits/busbra_development.csv",
+      "sha256": "6db10ea5bae1095dba26ce70b3b376ad1390c94de1645c546320310de8d55274"
+    },
+    {
+      "dataset": "BUS-BRA",
+      "split": "internal_holdout",
+      "root": "C:/Research/private_data",
+      "manifest": "C:/Research/private_data/busbra_splits/busbra_internal_holdout.csv",
+      "sha256": "2727d11d0db4f41ddd70a915576e5273a9d0ecbd735f151ae2ae710d0963a026"
+    },
+    {
+      "dataset": "BrEaST",
+      "split": "external_test",
+      "root": "C:/Research/research-2/pilot/breast_external_extracted",
+      "manifest": "C:/Research/research-2/pilot/breast_external_test/manifest.csv",
+      "sha256": "33db74c60e8ce242f82f5efcd1007c08151e6faf359a6204f68a251791dbda22"
+    }
+  ],
+  "output": "C:/Research/research-2/pilot\\research_output\\smoke_20261108_v2",
+  "purpose": "development_technical_smoke",
+  "select": {
+    "limit": 3,
+    "datasets": [
+      "BUS-BRA"
+    ],
+    "splits": [
+      "development"
+    ]
+  },
+  "prompt_strategies": [
+    "mechanism_gt_box",
+    "application_full_frame"
+  ],
+  "max_attempts": 2,
+  "upload_mbps": 10,
+  "bootstrap": 500,
+  "adaptive": {
+    "enabled": true
+  },
+  "conditions": [
+    {
+      "format": "baseline",
+      "id": "baseline"
+    },
+    {
+      "quality": 95,
+      "format": "jpeg",
+      "id": "jpeg_q95"
+    },
+    {
+      "quality": 85,
+      "format": "jpeg",
+      "id": "jpeg_q85"
+    },
+    {
+      "quality": 75,
+      "format": "jpeg",
+      "id": "jpeg_q75"
+    },
+    {
+      "quality": 60,
+      "format": "jpeg",
+      "id": "jpeg_q60"
+    },
+    {
+      "quality": 40,
+      "format": "jpeg",
+      "id": "jpeg_q40"
+    },
+    {
+      "lossless": true,
+      "compress_level": 6,
+      "format": "png",
+      "id": "png_l6"
+    },
+    {
+      "format": "png",
+      "id": "scale_090",
+      "scale": 0.9
+    },
+    {
+      "format": "png",
+      "id": "scale_075",
+      "scale": 0.75
+    },
+    {
+      "format": "png",
+      "id": "scale_050",
+      "scale": 0.5
+    },
+    {
+      "format": "png",
+      "id": "scale_025",
+      "scale": 0.25
+    },
+    {
+      "quality": 75,
+      "order": "resize_encode",
+      "format": "jpeg",
+      "id": "cr2_075_q75",
+      "scale": 0.75
+    },
+    {
+      "quality": 75,
+      "order": "encode_resize",
+      "format": "jpeg",
+      "id": "cr3_q75_075",
+      "scale": 0.75
+    },
+    {
+      "format": "png",
+      "interpolation": "bicubic",
+      "id": "cr5_075_png",
+      "scale": 0.75
+    },
+    {
+      "quality": 100,
+      "lossless": true,
+      "format": "webp",
+      "id": "webp_lossless"
+    },
+    {
+      "lossless": true,
+      "format": "jpeg2000",
+      "id": "jp2_lossless"
+    }
+  ]
+}

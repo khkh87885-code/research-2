@@ -1,0 +1,10 @@
+﻿group,value,Intercept,C(condition)[T.baseline],C(condition)[T.jpeg_q40],C(condition)[T.jpeg_q60],C(condition)[T.jpeg_q75],C(condition)[T.jpeg_q85],C(condition)[T.jpeg_q95]
+status,fitted,,,,,,,
+formula,dice ~ C(condition); Case random intercept; REML,,,,,,,
+records,1491,,,,,,,
+cases,213,,,,,,,
+converged,True,,,,,,,
+warnings,[],,,,,,,
+coefficients,,0.8311545302676603,-0.0019862173223951112,0.002223797325200488,0.0026659028812443036,-0.003382342843351431,-0.0013043134221122534,-0.002440646901837243
+p_values,,0.0,0.7331993326117983,0.7027239019728424,0.6472974516628038,0.5615946061799482,0.8228778473503193,0.6753172791381592
+interpretation,exploratory condition effect; cross-fitted policy training dependence not modeled,,,,,,,
