@@ -1,0 +1,16 @@
+# BrEaST 最终测试与验收报告
+
+状态：passed。此处通过仅指工程/数据记录完整性，不是临床安全或非劣效结论。
+
+- 61 frozen files, policy and validation-driver lock：通过。{"frozen_files_checked": 61, "policy_sha256": "cfb6d4d536729fba888772818706f5ccb7b5785674f85e57795fb2a6a468b113", "freeze_manifest_file_sha256": "598b343bf90f2953d8c4b3c0a044f44827804cdd06993686849b25cc60340a3d"}
+- 256 originals,252 main,14 other and official sources unchanged：通过。{"original_images": 256, "primary_references": 252, "other_annotations": 14, "official_and_prior_sources": 4, "source_hashes_unchanged": true, "original_data_audit_completed_at": "2026-11-08T06:30:15.716752+00:00", "original_data_audit_elapsed_seconds": "not_recorded"}
+- 768 task records, identical prompts and normal zero-inference：通过。{"tasks": 768, "main_tasks": 756, "successful_main_predictions": 756, "explicitly_failed_main_tasks": 0, "normal_tasks_no_SAM": 12, "statuses": {"ok": 756, "efficiency_only": 12}}
+- 256 image-only decisions, corrupted-outcome replay and training-only OOD：通过。{"decisions_replayed": 256, "outcome_destroyed_replays": 256, "original_feature_extractions": 256, "candidate_artifacts_checked": 1792, "OOD_reference": "frozen BUS-BRA 213 original-feature min/max only"}
+- independent all-saved-mask overlap and pixel/mm distances：通过。{"recomputed_main_predictions": 756, "failed_main_tasks_retained": 0, "overlap_method": "independent set-count formulas", "surface_method": "independent four-neighbor coordinates + KD-tree nearest distances", "units": ["pixel", "mm"], "maximum_absolute_differences": {"dice": 0.0, "iou": 0.0, "precision": 0.0, "recall": 0.0, "boundary_f1": 0.0, "hd95_pixel": 0.0, "assd_pixel": 0.0, "hd95_mm": 4.440892098500626e-15, "assd_mm": 6.661338147750939e-16}, "surface_sample": "all saved successful main predictions"}
+- 5000 Case bootstrap,12 planned Holm and fixed denominators：通过。{"bootstrap_repetitions": 5000, "shared_main_case_index_hash": "952f7b3f74d00f359bbe8b108436488558e8e19323cf298d30a373b8589edb18", "primary_pair_mean_CIs_independently_recomputed": 12, "primary_pair_median_and_group_median_CIs_recomputed": 24, "primary_paired_Wilcoxon_recomputed": 12, "planned_Holm_family": 12, "primary_available_P_values": 12, "cohorts": {"main": 252, "normal": 4}, "statistics_sha256": "9c917db1c8f20b4a9480dc4ffba23d627e88b398b951942e1903703d7f4e5b3d"}
+- required report,discussion,10 readable 300dpi PNG/SVG：通过。{"required_reports": 2, "readable_PNG_figures": 10, "readable_SVG_figures": 10, "PNG_dpi": 300, "PDF_check": "container structure only; no page-layout claim"}
+- XLSX native tables,source hashes and exact source CI values：通过。{"sheets": ["Summary", "PairedStats", "PerImage", "Decisions", "FeatureShift", "FlowMissing", "NormalEfficiency", "FreezeMethods"], "parsed_rows_across_sheets": 2864, "exact_summary_rows_checked": 30, "summary_matching": "population/group/metric/unit keyed subset within declared table range", "exact_primary_pair_rows_checked": 12, "workbook_sha256": "5a52d2d9632e8605849f8ba80e29aaccc6623c0b514b9738047ac8ef41d8dd8f", "validation_scope": "data and package readability; no rendered-layout claim"}
+- actual final phase JUnit：通过。{"tests": 34, "failures": 0, "errors": 0, "skipped": 0, "sha256": "0dacd369227828d502acad290f23ecb6ddf5443e4f6d336834c64cd71abe12e4"}
+
+所有失败项如实保留；没有修改原始数据、冻结策略、驱动或正式结果。
+独立指标使用集合计数与KD-tree表面点距离，对照冻结EDT实现；PNG/SVG/XLSX检查为数据/容器可读性，不宣称排版审阅。
